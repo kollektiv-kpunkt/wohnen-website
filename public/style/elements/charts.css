@@ -1,0 +1,53 @@
+.chart {
+    width: 100%;
+    max-width: 670px;
+    height: 400px;
+    max-height: 50vh;
+    margin: 3rem auto 0 auto;
+}
+
+.chart svg {overflow: visible;}
+
+.ct-label {
+    color: var(--dark);
+    font-size: 0.75rem;
+    fill: rgba(87,87,87,0.9);
+}
+
+.ct-series .ct-label {
+    fill: var(--red);
+    font-size: 0.5rem;
+}
+
+.ct-grid {
+    stroke: rgba(87,87,87,0.4);
+    stroke-width: 1px;
+    stroke-dasharray: 4px;
+}
+
+#chart1 .ct-series-a .ct-line, #chart1 .ct-series-a .ct-point {
+    stroke: var(--red);
+    fill: none;
+    stroke-width: 4px;
+}
+
+.section-text-cont p.chartlabel {
+    font-size: 0.75rem;
+    font-style: italic;
+    columns: var(--grey);
+    margin-bottom: 0;
+}
+
+#chart2 .ct-series {
+    stroke: var(--seriescolor);
+    fill: none;
+    stroke-width: 4px;
+}
+
+#chart2 .ct-point {
+    stroke-width: 10px;
+    stroke-linecap: round;
+}
+
+#chart2 .ct-series-a {--seriescolor: blue}
+#chart2 .ct-series-b {--seriescolor: var(--red)}

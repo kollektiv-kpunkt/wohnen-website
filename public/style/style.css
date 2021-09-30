@@ -1,0 +1,13 @@
+/* MAIN STYLES */
+@import url("normalize.css");
+@import url("root.css");
+
+@import url("typo.css");
+
+@import url("sections.css");
+@import url("sections/frontpage.css");
+
+
+@import url("elements.css");
+@import url("elements/navbar.css");
+@import url("elements/charts.css");
