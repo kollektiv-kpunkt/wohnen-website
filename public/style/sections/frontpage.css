@@ -6,6 +6,7 @@ section .section-heroine {
     background-size: cover;
     position: relative;
     display: flex;
+    overflow: hidden;
 }
 
 .section-title-cont {
@@ -34,19 +35,25 @@ section .section-heroine {
     height: 100%;
     width: 100%;
     background-color: var(--whine);
-    opacity: 0.5;
+    opacity: 0.7;
     mix-blend-mode: darken;
+    z-index: 2;
+}
+
+.section-heroine-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    height: auto;
+    width: auto;
 }
 
 section .section-heroine.section1 { 
-    background-image: url("/img/sections/1.jpg"); 
     min-height: 530px;
 }
 section .section-heroine.section1 .section-title-cont {padding-top: 4rem;}
-
-section .section-heroine.section2 { background-image: url("/img/sections/2.jpg"); }
-
-section .section-heroine.section3 { background-image: url("/img/sections/3.jpg"); }
 
 /* TEXT CONTENT */
 
