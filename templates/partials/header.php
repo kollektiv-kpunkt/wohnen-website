@@ -28,7 +28,7 @@ global $config;
     <div id="nav-bar-content">
         <img src="/img/logo-mob.svg" alt="Logo" id="logo-img">
         <div id="nav-menu">
-            <a class="menu-item current-item" href="/">Wohnen in Zürich</a>
+            <a class="menu-item current-item" href="/">Die Mieten explodieren</a>
             <a class="menu-item" href="/mitmachen">Mitmachen</a>
             <a class="menu-item" href="/spenden">Spenden</a>
         </div>

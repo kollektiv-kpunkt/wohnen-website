@@ -1,0 +1,40 @@
+.paginator {
+    position: fixed;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.section-button {
+    display: flex;
+    margin-bottom: 0.25rem;
+}
+
+.section-link {
+    height: 0.5rem;
+    width: 0.5rem;
+    border: 2px solid var(--black);
+    border-radius: 50%;
+    margin: auto;
+    transition: 0.2s linear background-color;
+}
+
+.section-link.current {
+    background-color: var(--black);
+}
+
+.section-button:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 980px) {
+    .paginator {
+        right: 0.5rem;
+    }
+
+    .section-link {
+        height: 0.2rem;
+        width: 0.2rem;
+    }
+}

@@ -201,7 +201,7 @@ var configChart3 = {
     type: 'line',
     data: dataChart3,
     options: {
-        aspectRatio: (4/3),
+        aspectRatio: (3/2),
         scales: {
             y: {
                 ticks: {
