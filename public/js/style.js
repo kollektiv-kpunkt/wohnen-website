@@ -19,6 +19,8 @@ var styleSets = function styleSets() {
         var scpad = 5 * vw;
     }
     document.documentElement.style.setProperty("--scpad", `${scpad}px`);    
+    
+    document.documentElement.style.setProperty("--navHeight", `${$("#nav-bar-cont").height()}px`);    
 }
 
 window.addEventListener("load", styleSets, false);

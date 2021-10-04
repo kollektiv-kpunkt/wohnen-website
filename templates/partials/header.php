@@ -26,11 +26,23 @@ global $config;
 
 <nav id="nav-bar-cont">
     <div id="nav-bar-content">
-        <img src="/img/logo.svg" alt="Logo" id="logo-img">
+        <img src="/img/logo-mob.svg" alt="Logo" id="logo-img">
         <div id="nav-menu">
             <a class="menu-item current-item" href="/">Wohnen in Zürich</a>
             <a class="menu-item" href="/mitmachen">Mitmachen</a>
             <a class="menu-item" href="/spenden">Spenden</a>
+        </div>
+    </div>
+    
+    <div id="nav-bar-content-mob">
+        <img src="/img/logo-mob.svg" alt="Logo" id="logo-img-mob">
+        <div id="mobnav-menubutton">
+            <span>Menu</span>
+            <div id="menu-tofuburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
         </div>
     </div>
 </nav>

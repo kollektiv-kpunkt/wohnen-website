@@ -1,0 +1,125 @@
+section .section-heroine {
+    min-height: 450px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.section-title-cont {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: var(--white);
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.75));
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+}
+
+.section-title-cont h1 {
+    margin: auto;
+    width: 95%;
+    max-width: 1080px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section-heroine-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--whine);
+    opacity: 0.7;
+    mix-blend-mode: darken;
+    z-index: 2;
+}
+
+.section-heroine-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+section .section-heroine.section1 { 
+    min-height: 530px;
+}
+section .section-heroine.section1 .section-title-cont {padding-top: 4rem;}
+
+/* TEXT CONTENT */
+
+.section-text-cont {
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+}
+
+.section-text-cont p {
+    font-size: 1.15rem;
+}
+
+
+/* PEOPLE GRID */
+#people-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 130%;
+    margin-left: -15%;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+#people-grid .person {
+    width: calc(100% / 3 - (2rem / 3));
+}
+
+@media screen and (max-width: 980px) {
+    #people-grid {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 11cm;
+    }
+
+    #people-grid .person {
+        width: calc(100% / 2 - (1rem / 2));
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #people-grid {
+        max-width: 5.5cm;
+    }
+
+    #people-grid .person {
+        width: 100%;
+    }
+}
+
+#people-grid .person .person-img-container {
+    border-radius: 50%;
+    border: 10px solid var(--whine);
+    display: flex;
+}
+
+#people-grid .person img {
+    width: 100%;
+    height: auto;
+    align-self: flex-start;
+    border-radius: 50%;
+    filter: grayscale(1);
+}
+
+#people-grid .person p.text_small {
+    font-size: 0.8rem;
+}

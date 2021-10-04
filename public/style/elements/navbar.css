@@ -18,8 +18,20 @@
         drop-shadow(0 -2px 2px rgba(0, 0, 0, 0.1));
 }
 
-#nav-bar-content #nav-menu {
-    margin: auto 2rem auto auto;
+#nav-bar-content-mob {
+    display: none;
+    width: 95%;
+    max-width: 1920px;
+    margin: auto;
+    background-color: var(--white);
+    filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.12))
+        drop-shadow(0 3px 3px rgba(0, 0, 0, 0.14))
+        drop-shadow(0 1px 8px rgba(0, 0, 0, 0.12))
+        drop-shadow(0 -2px 2px rgba(0, 0, 0, 0.1));
+}
+
+#nav-bar-content #nav-menu, #nav-bar-content-mob #mobnav-menubutton {
+    margin: auto 1rem auto auto;
 }
 
 
@@ -38,3 +50,42 @@
 }
 
 #nav-bar-content #nav-menu a.menu-item.current-item {color: var(--red)}
+
+#mobnav-menubutton {
+    display: flex;
+}
+
+#mobnav-menubutton span {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+#mobnav-menubutton #menu-tofuburger {
+    width: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+#mobnav-menubutton #menu-tofuburger div {
+    height: 3px;
+    margin: 1.5px;
+    background-color: var(--black);
+    transition: 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) transform;
+}
+
+#nav-inner-mob #mobnav-menubutton.open #menu-tofuburger div:nth-child(1) {transform: translateY(6px) rotate(45deg);}
+#nav-inner-mob #mobnav-menubutton.open #menu-tofuburger div:nth-child(2) {transform: rotate(-45deg);}
+#nav-inner-mob #mobnav-menubutton.open #menu-tofuburger div:nth-child(3) {transform: translateY(-6px) rotate(45deg);}
+
+
+@media screen and (max-width: 980px) {
+    #nav-bar-content {
+        display: none;
+    }
+    #nav-bar-content-mob {
+        display: flex;
+    }
+}
