@@ -1,0 +1,27 @@
+footer {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#bottom-bar {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.footer-nav-links {
+    margin-right: 0.75rem;
+}
+
+.footer-nav-links:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width:480px) {
+    #navlinks {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}

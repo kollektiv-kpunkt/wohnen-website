@@ -24,16 +24,21 @@ global $config;
 
 <nav id="nav-bar-cont">
     <div id="nav-bar-content">
-        <img src="/img/logo-mob.svg" alt="Logo" id="logo-img">
+        <a href="/" style="display: flex;">
+            <img src="/img/logo-mob.svg" alt="Logo" id="logo-img">
+        </a>
         <div id="nav-menu">
             <a class="menu-item" href="/">Die Mieten explodieren</a>
-            <a class="menu-item" href="/fahne">Mitmachen</a>
+            <a class="menu-item" href="/initiative">Initiative</a>
+            <a class="menu-item" href="/fahne">Fahne bestellen</a>
             <a class="menu-item" href="/spenden">Spenden</a>
         </div>
     </div>
     
     <div id="nav-bar-content-mob">
-        <img src="/img/logo-mob.svg" alt="Logo" id="logo-img-mob">
+        <a href="/" style="display: flex;">
+            <img src="/img/logo-mob.svg" alt="Logo" id="logo-img-mob">
+        </a>
         <div id="mobnav-menubutton">
             <span>Menu</span>
             <div id="menu-tofuburger">
@@ -44,5 +49,10 @@ global $config;
         </div>
     </div>
 </nav>
+<div id="mobile-nav-menu">
+    <a class="mobile-menu-item" href="/initiative">Initiative</a>
+    <a class="mobile-menu-item" href="/fahne">Fahne bestellen</a>
+    <a class="mobile-menu-item" href="/spenden">Spenden</a>
+</div>
 
 <div id="main-content">

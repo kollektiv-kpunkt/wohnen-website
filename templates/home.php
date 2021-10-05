@@ -139,17 +139,17 @@ include __DIR__ . "/partials/header.php";
             <div class="support-item">
                 <h5>Initiative unterstützen</h5>
                 <p>Unterstützen Sie jetzt unsere neue Initiative für mehr bezahlbare Wohnungen</p>
-                <a href="#" class="support-button">unterstützen</a>
+                <a href="/initiative" class="support-button">unterstützen</a>
             </div>
             <div class="support-item">
                 <h5>Fahne bestellen</h5>
                 <p>Bestellen Sie jetzt eine Fahne und machen Sie Ihre Unterstützung sichtbar</p>
-                <a href="#" class="support-button">Fahne Bestellen</a>
+                <a href="/fahne" class="support-button">Fahne Bestellen</a>
             </div>
             <div class="support-item">
                 <h5>Mitglied werden</h5>
                 <p>Kämpfen Sie mit uns für bezahlbare Wohnungen und werden Sie SP-Mitglied</p>
-                <a href="#" class="support-button">Mitglied werden</a>
+                <a href="https://mitglied-werden.sp-ps.ch/" target="_blank" class="support-button">Mitglied werden</a>
             </div>
         </div>
     </div>

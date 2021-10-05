@@ -39,4 +39,4 @@ window.addEventListener("resize", styleSets, false);
 var setMenuitem = function setMenuitem() {
     $(`.menu-item[href="${window.location.pathname}"]`).addClass("current-item")
 }
-window.addEventListener("load", setMenuitem, false);
+window.addEventListener("DOMContentLoaded", setMenuitem, false);
