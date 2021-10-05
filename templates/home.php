@@ -8,8 +8,9 @@ include __DIR__ . "/partials/header.php";
         <h3 class="charttitle">Die Mieten in Zürich haben sich fast verdoppelt:</h3>
         <div class="chart">
             <canvas id="chart1"></canvas>
+            <p class="textonchart" id="chart1_1">+85%</p>
         </div>
-        <p class="chartlabel">Quelle: Index Angebotsmieten Stadt Zürich Wüst und Partner</p>
+        <p class="chartlabel">Quelle: Mittlerer Preis 3-Zimmerwohnung (80m2), auf Datengrundlage des Index Angebotsmieten Stadt Zürich WüEst und Partner</p>
         <p>Wohnen in Zürich wird immer teurer. Im Vergleich mit vor 20 Jahren haben sich die Mieten fast verdoppelt. Wohnungen für 5'700 CHF an der Europaallee zeigen, in welche Richtung sich der Wohnungsmarkt bewegt. Geht diese Entwicklung ungebremst weiter, ist Zürich irgendwann nur noch für die Banken- und Software-Elite bezahlbar.</p>
     </div>
     <div class="section-bg"></div>
@@ -19,11 +20,14 @@ include __DIR__ . "/partials/header.php";
 
 <section class="home-section" style="--sectionColor: #088043" id="immokonzerne">
     <div class="section-container smcont">
-        <h3 class="charttitle">Immobilienkonzerne besitzen immer mehr Wohnungen</h3>
+        <h3 class="charttitle">Immobilienkonzerne kaufen Haus um Haus</h3>
         <div class="chart">
             <canvas id="chart2"></canvas>
+            <p class="textonchart" id="chart2_1">Immobilienkonzerne</p>
+            <p class="textonchart" id="chart2_2">Genossenschaften und öffentliche Hand</p>
         </div>
-        <p class="chartlabel">Dargestellt ist der Anteil verschiedener Eigentumsarten indexiert am Bestand 2010. <span style="color: var(--red)">In rot der Anteil der öffentlichen Hand und Genossenschaften<span style="color: #1f1f8f"> und in blau Kapital- und andere private Gesellschaften.</span></p>
+        <p class="chartlabel">Entwicklung des Anteils von öffentlicher Hand und Genossenschaften <span style="color: var(--red)">(in rot)</span> und Immobilienkonzernen, Pensionskassen, Anlagestiftungen <span style="color: #1f1f8f">(in blau)</span> am Wohnungsmarkt.<br>
+        Quelle: Statistik Stadt Zürich</p>
         <p>Dass die Wohnungsmieten in den letzten Jahren immer teurer wurden, ist kein Zufall. Immer mehr Immobilienkonzerne und institutionelle Anleger kaufen in Zürich Land und Wohnungen auf. So bringen sie einen immer grösseren Anteil der Wohnungen unter ihre Kontrolle und bereichern sich auf Kosten der Bevölkerung.</p>
     </div>
     <div class="section-bg"></div>
@@ -33,13 +37,13 @@ include __DIR__ . "/partials/header.php";
 
 <section class="home-section" style="--sectionColor: #00466D" id="aktienkurse">
     <div class="section-container smcont">
-        <h3 class="charttitle">Die Aktienkurse der grossen Immokonzerne steigen unermüdlich:</h3>
+        <h3 class="charttitle">Aktionäre profitieren von der Miet-Abzocke:</h3>
         <div class="chart">
             <canvas id="chart3"></canvas>
         </div>
         <p class="chartlabel">Aktienkurse von <span style="color: #1f1f8f">Allreal</span>, <span style="color: red">PSP</span> und <span style="color: purple">mobimo</span> indexiert am Stand vom August 2010.<br>
         Quelle: SWX SIX Swiss Exchange</p>
-        <p>Das Auspressen des Zürcher Wohnungsmarktes zahlt sich aus: Die Aktienkurse der Immobilienfirmen Allreal, PSP, mobimo und SPS sind trotz Finanzkrise kräftig gestiegen. Die Zürcher Mieterinnen und Mieter zahlen die Boni der Manager und die Dividenden der Aktionäre.</p>
+        <p>Das Auspressen des Zürcher Wohnungsmarktes zahlt sich aus: Die Aktienkurse der grossen Immobilienkonzerne Allreal, PSP und mobimo sind trotz Finanzkrise kräftig gestiegen. Die Zürcher Mieterinnen und Mieter zahlen die Boni der Manager und die Dividenden der Aktionäre.</p>
     </div>
     <div class="section-bg"></div>
     <div class="section-img" style="background-image: url('/img/sections/3.jpg');"></div>
@@ -49,8 +53,8 @@ include __DIR__ . "/partials/header.php";
 <section class="home-section" style="--sectionColor: #7E0000" id="personen">
 
     <div class="section-container smcont">
-        <h3 class="charttitle">FDP und SVP kämpfen im Nationalrat für noch höhere Mieten</h3>
-        <p>Die rechtskonservativen Parteien wollen ihren Freunden in den Verwaltungsräten der Immobilienkonzerne noch höhere Renditen zuschaufeln: Auf ihre Forderungen berät das Parlament nun verschiedene Gesetzesänderungen, die die Rechte der Mieter*innen weiter einschränken und noch obszönere Mieten erlauben.</p>
+        <h3 class="charttitle">FDP und SVP planen im Bundeshaus noch höhere Mieten</h3>
+        <p>Die rechtskonservativen Parteien wollen ihren Freunden in den Verwaltungsräten der Immobilienkonzerne noch höhere Renditen zuschaufeln: Auf ihre Forderungen berät das Parlament nun verschiedene Gesetzesänderungen, die die Rechte der Mieter:innen weiter einschränken und noch krassere Mietsteigerungen erlauben.</p>
         <div id="people-grid">
             <div class="person">
                 <div class="person-img-container">
@@ -58,8 +62,7 @@ include __DIR__ . "/partials/header.php";
                 </div>
                 <p class="person-content text_small">
                     <b>Albert Leiser (FDP)</b><br>
-                    ehem. Verwaltungsrat von Allreal<br>
-                    Vergütung: CHF 80'000
+                    als ehem. Verwaltungsrat von Allreal erhielt Leiser 80'000&nbsp;CHF pro Jahr
                 </p>
             </div>
             <div class="person">
@@ -69,17 +72,16 @@ include __DIR__ . "/partials/header.php";
                 <p class="person-content text_small">
                     <b>Peter Spuhler (SVP)</b><br>
                     Verwaltungsrat von Allreal<br>
-                    Vergütung: CHF 80'000
+                    Vergütung: 80'000&nbsp;CHF
                 </p>
             </div>
             <div class="person">
                 <div class="person-img-container">
-                    <img src="/img/personen/georges_theiler.jpg" alt="Albert Leiser">
+                    <img src="/img/personen/georges_theiler.jpg" alt="Georges Theiler">
                 </div>
                 <p class="person-content text_small">
                     <b>Georges Theiler (FDP)</b><br>
-                    ehem. Verwaltungsratspräsident von mobimo<br>
-                    Vergütung: CHF 361’000
+                    als ehem. Verwaltungsrat von mobimo erhielt Theiler 361'000&nbsp;CHF pro Jahr
                 </p>
             </div>
         </div>
@@ -94,8 +96,15 @@ include __DIR__ . "/partials/header.php";
 
     <div class="section-container smcont">
         <h3 class="charttitle">Wie können wir die Mietexplosion stoppen?</h3>
-        <p>Um die Mietexplosion langfristig zu stoppen, gibt es nur einen Weg: Die Wohnungen müssen dem Renditemarkt und der Spekulation entzogen werden! Wohnungen von Genossenschaften und der Stadt werden zur Kostenmiete vermietet (gemeinnützig), das heisst, dass die Bewohner*innen mit ihrer Miete nur die Kosten vom Land und Bau bezahlen und keinem Immobilienkonzern noch den Gewinn finanzieren. Darum sind gemeinnützige Wohnungen im Durchschnitt um mindestens 25 % günstiger als private. Je mehr gemeinnützige Wohnungen, desto tiefer sind die Mieten.</p>
-        <img src="/img/charts/comparison_chart.svg" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto">
+        <p>Um die Mietexplosion langfristig zu stoppen, gibt es nur einen Weg: Die Wohnungen müssen dem Renditemarkt und der Spekulation entzogen werden! Wohnungen von Genossenschaften und der Stadt werden zur Kostenmiete vermietet (gemeinnützig), das heisst, dass die Bewohner:innen mit ihrer Miete nur die Kosten von Land, Bau und Unterhalt bezahlen und keinem Immobilienkonzern noch den Gewinn finanzieren. Darum sind gemeinnützige Wohnungen im Durchschnitt um mindestens 25 % günstiger als die von renditeorientierten Vermieter:innen. Je mehr gemeinnützige Wohnungen, desto tiefer sind die Mieten.</p>
+        <!-- <img src="/img/charts/comparison_chart.svg" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto"> -->
+        <div class="chart">
+            <canvas id="chart4"></canvas>
+            <img src="/img/charts/diff_426.svg" alt="#" class="diff_arrow" id="diff_426">
+            <img src="/img/charts/diff_570.svg" alt="#" class="diff_arrow" id="diff_570">
+            <img src="/img/charts/diff_600.svg" alt="#" class="diff_arrow" id="diff_600">
+        </div>
+        <p class="chartlabel">Quelle: Mittlere Mietpreise 2011-2015 nach Eigentumsgruppe Stadt Zürich, auf der Grundlage vom Jahrbuch der Stadt Zürich</p>
     </div>
 
     <div class="section-bg"></div>

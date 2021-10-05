@@ -1,10 +1,87 @@
+.chart {
+    position: relative;
+}
+
+.charttitle {
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    color: var(--sectionColor);
+}
+
+p.textonchart {
+    position: absolute;
+    font-weight: 900;
+    margin: 0;
+}
+
+p.textonchart#chart1_1 {
+    top: 8%;
+    left: 74%;
+    color: var(--sectionColor);
+}
+
+p.textonchart#chart2_1 {
+    top: 35%;
+    left: 17%;
+    color: #1f1f8f;
+}
+
+p.textonchart#chart2_2 {
+    top: 66%;
+    left: 52%;
+    color: #c51e1e;
+    line-height: 1.15;
+}
+
+@media screen and (max-width: 580px) {
+    p.textonchart#chart2_1, p.textonchart#chart2_2 {
+        font-size: 1rem;
+    }
+
+    p.textonchart#chart2_1 { top: 41%}
+    
+    p.textonchart#chart2_2 {top: 60%;}
+}
+
+@media screen and (max-width: 410px) {
+    p.textonchart#chart2_1, p.textonchart#chart2_2 {
+        font-size: 0.7rem;
+    }
+
+    p.textonchart#chart2_2 {top: 57%;}
+}
+
+
+img.diff_arrow {
+    position: absolute;
+}
+
+img.diff_arrow#diff_426 {
+    top: 36%;
+    left: 15%;
+    height: 18%;
+}
+
+img.diff_arrow#diff_570 {
+    top: 25.5%;
+    left: 44%;
+    height: 24%;
+}
+
+img.diff_arrow#diff_600 {
+    top: 8%;
+    left: 74%;
+    height: 25.5%;
+}
+
+
 /* .chart {
     width: 100%;
     max-width: 670px;
     height: 400px;
     max-height: 50vh;
     margin: 0 auto;
-} */
+} 
 
 .chart svg {overflow: visible;}
 
@@ -14,11 +91,7 @@
     fill: rgba(87,87,87,0.9);
 }
 
-.charttitle {
-    text-align: center;
-    margin: 2rem 0 1rem 0;
-    color: var(--sectionColor);
-}
+
 
 .section-text-cont p.chartlabel {
     font-size: 0.75rem;
@@ -105,3 +178,4 @@
 #chart3 .ct-series-b {--seriescolor: red}
 #chart3 .ct-series-c {--seriescolor: purple}
 #chart3 .ct-series-d {--seriescolor: green}
+*/
