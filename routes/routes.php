@@ -8,3 +8,11 @@ Router::get('/', function() {
     );
     include __DIR__ . "/../templates/home.php";
 });
+
+Router::get('/fahne', function() {
+    $page = array(
+        "space" => "page",
+        "subtitle" => "- Fahne bestellen"
+    );
+    include __DIR__ . "/../templates/fahne.php";
+});

@@ -20,9 +20,23 @@ var styleSets = function styleSets() {
     }
     document.documentElement.style.setProperty("--scpad", `${scpad}px`);    
     
+    if (window.innerWidth > 834) {
+        var mcpad = (window.innerWidth - 793) / 2;
+    }
+    else {
+        var mcpad = 2.5 * vw;
+    }
+    document.documentElement.style.setProperty("--mcpad", `${mcpad}px`);    
+    
     document.documentElement.style.setProperty("--navHeight", `${$("#nav-bar-cont").height()}px`);    
 }
 
 window.addEventListener("load", styleSets, false);
 $(document).ready(styleSets);
 window.addEventListener("resize", styleSets, false);
+
+
+var setMenuitem = function setMenuitem() {
+    $(`.menu-item[href="${window.location.pathname}"]`).addClass("current-item")
+}
+window.addEventListener("load", setMenuitem, false);

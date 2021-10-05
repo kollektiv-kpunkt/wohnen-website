@@ -2,3 +2,8 @@
     padding-left: var(--scpad);
     padding-right: var(--scpad);
 }
+
+.mdcont {
+    padding-left: var(--mcpad);
+    padding-right: var(--mcpad);
+}

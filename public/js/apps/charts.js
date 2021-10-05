@@ -88,6 +88,11 @@ var configChart2 = {
                 }
             }
         },
+        plugins: {
+            legend: {
+                display: false
+            }
+        }
     }
 };
 
@@ -222,8 +227,8 @@ var dataChart4 = {
     datasets: [
         {
             label: "Gemeinnützig",
-            backgroundColor: 'rgba(126, 0, 0, 0.5)',
-            borderColor: 'rgba(126, 0, 0, 1)',
+            backgroundColor: 'rgba(197, 30, 30, 0.5)',
+            borderColor: 'rgba(197, 30, 30, 1)',
             data: [915,1016,1400]
         }, {
             label: "Renditeorientiert",

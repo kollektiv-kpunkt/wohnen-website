@@ -8,8 +8,8 @@
 }
 
 .section-container {
-    padding-top: calc(var(--navHeight) + 2rem);
-    padding-bottom: calc(var(--navHeight) + 2rem);
+    padding-top: calc(var(--navHeight) + 1.5rem);
+    padding-bottom: calc(var(--navHeight) + 1.5rem);
     margin: auto 0;
     position: relative;
     z-index: 2;

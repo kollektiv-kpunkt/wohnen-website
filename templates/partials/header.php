@@ -10,8 +10,6 @@ global $config;
     <title>Explodierende Mieten<?= $page["subtitle"] ?></title>
 
     <!------- STYLE ------->
-    <!-- lib -->
-    <link rel="stylesheet" type="text/css" href="/lib/chartist/plugins/chartist-plugin-tooltip.css" />
 
 
     <link rel="stylesheet" type="text/css" href="/style/style.css?ver=1.0" />
@@ -28,8 +26,8 @@ global $config;
     <div id="nav-bar-content">
         <img src="/img/logo-mob.svg" alt="Logo" id="logo-img">
         <div id="nav-menu">
-            <a class="menu-item current-item" href="/">Die Mieten explodieren</a>
-            <a class="menu-item" href="/mitmachen">Mitmachen</a>
+            <a class="menu-item" href="/">Die Mieten explodieren</a>
+            <a class="menu-item" href="/fahne">Mitmachen</a>
             <a class="menu-item" href="/spenden">Spenden</a>
         </div>
     </div>

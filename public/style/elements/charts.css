@@ -38,7 +38,7 @@ p.textonchart#chart2_2 {
         font-size: 1rem;
     }
 
-    p.textonchart#chart2_1 { top: 41%}
+    p.textonchart#chart2_1 { top: 32%}
     
     p.textonchart#chart2_2 {top: 60%;}
 }
@@ -46,6 +46,7 @@ p.textonchart#chart2_2 {
 @media screen and (max-width: 410px) {
     p.textonchart#chart2_1, p.textonchart#chart2_2 {
         font-size: 0.7rem;
+        top: 32%;
     }
 
     p.textonchart#chart2_2 {top: 57%;}
@@ -74,6 +75,19 @@ img.diff_arrow#diff_600 {
     height: 25.5%;
 }
 
+#comparison_chart_img {
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    #comparison_chart {
+        display: none;
+    }
+    
+    #comparison_chart_img {
+        display: block;
+    }
+}
 
 /* .chart {
     width: 100%;

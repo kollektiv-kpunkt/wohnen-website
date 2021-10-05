@@ -10,7 +10,7 @@ include __DIR__ . "/partials/header.php";
             <canvas id="chart1"></canvas>
             <p class="textonchart" id="chart1_1">+85%</p>
         </div>
-        <p class="chartlabel">Quelle: Mittlerer Preis 3-Zimmerwohnung (80m2), auf Datengrundlage des Index Angebotsmieten Stadt Zürich WüEst und Partner</p>
+        <p class="chartlabel">Quelle: Mittlerer Preis 3-Zimmerwohnung (80m2), auf Datengrundlage des Index Angebotsmieten Stadt Zürich Wüest und Partner</p>
         <p>Wohnen in Zürich wird immer teurer. Im Vergleich mit vor 20 Jahren haben sich die Mieten fast verdoppelt. Wohnungen für 5'700 CHF an der Europaallee zeigen, in welche Richtung sich der Wohnungsmarkt bewegt. Geht diese Entwicklung ungebremst weiter, ist Zürich irgendwann nur noch für die Banken- und Software-Elite bezahlbar.</p>
     </div>
     <div class="section-bg"></div>
@@ -20,7 +20,7 @@ include __DIR__ . "/partials/header.php";
 
 <section class="home-section" style="--sectionColor: #088043" id="immokonzerne">
     <div class="section-container smcont">
-        <h3 class="charttitle">Immobilienkonzerne kaufen Haus um Haus</h3>
+        <h3 class="charttitle">Immokonzerne kaufen Haus um Haus</h3>
         <div class="chart">
             <canvas id="chart2"></canvas>
             <p class="textonchart" id="chart2_1">Immobilienkonzerne</p>
@@ -97,8 +97,8 @@ include __DIR__ . "/partials/header.php";
     <div class="section-container smcont">
         <h3 class="charttitle">Wie können wir die Mietexplosion stoppen?</h3>
         <p>Um die Mietexplosion langfristig zu stoppen, gibt es nur einen Weg: Die Wohnungen müssen dem Renditemarkt und der Spekulation entzogen werden! Wohnungen von Genossenschaften und der Stadt werden zur Kostenmiete vermietet (gemeinnützig), das heisst, dass die Bewohner:innen mit ihrer Miete nur die Kosten von Land, Bau und Unterhalt bezahlen und keinem Immobilienkonzern noch den Gewinn finanzieren. Darum sind gemeinnützige Wohnungen im Durchschnitt um mindestens 25 % günstiger als die von renditeorientierten Vermieter:innen. Je mehr gemeinnützige Wohnungen, desto tiefer sind die Mieten.</p>
-        <!-- <img src="/img/charts/comparison_chart.svg" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto"> -->
-        <div class="chart">
+        <img src="/img/charts/comparison_chart.svg" id="comparison_chart_img" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto">
+        <div class="chart" id="comparison_chart">
             <canvas id="chart4"></canvas>
             <img src="/img/charts/diff_426.svg" alt="#" class="diff_arrow" id="diff_426">
             <img src="/img/charts/diff_570.svg" alt="#" class="diff_arrow" id="diff_570">
@@ -117,11 +117,11 @@ include __DIR__ . "/partials/header.php";
     <div class="section-container smcont">
         <h3 class="charttitle">Was macht die SP, um mehr bezahlbare Wohnungen zu ermöglichen?</h3>
         <p>Es braucht jetzt entschiedenes Handeln, sonst gehört bis 2050 jede zweite Wohnung in der Stadt Zürich einem Immobilienkonzern – und die Mieten steigen weiter. Das dürfen wir auf keinen Fall zulassen!</p>
-        <p>Die SP sorgt darum dafür, dass die Immobilienkonzerne wieder aus Zürich zurückgedrängt werden und in den Jahren endlich mehr bezahlbare Wohnungen entstehen:</p>
+        <p>Die SP sorgt darum dafür, dass die Immobilienkonzerne wieder aus Zürich zurückgedrängt werden und in den nächsten Jahren endlich mehr bezahlbare Wohnungen entstehen:</p>
         <ol>
-            <li><p><b>Die Stadt muss jedes Jahr 500 Wohnungen kaufen und so dem Renditemarkt entziehen</b><br>Wir dürfen den Wohnungsmarkt nicht den Immobilienkonzernen überlassen. Darum kämpft die SP dafür, dass die Stadt viel mehr Land und Wohnungen kauft und bezahlbar vermietet. Dank der SP hat der Stadtrat neu die Kompetenz, durch den Kauf von Häusern explodierende Mieten zu bekämpfen.</p></li>
+            <li><p><b>Die Stadt muss jedes Jahr 500 Wohnungen kaufen und so dem Renditemarkt entziehen</b><br>Wir dürfen den Wohnungsmarkt nicht den Immobilienkonzernen überlassen. Darum kämpft die SP dafür, dass die Stadt viel mehr Land und Wohnungen kauft und bezahlbar vermietet. Dank der SP hat der Stadtrat neu die Kompetenz, durch den Kauf von Häusern die steigenden Mieten zu bekämpfen.</p></li>
             <li><p><b>Immobilienkonzerne verpflichten, günstige Wohnungen zur Verfügung zu stellen</b><br>Wenn Immobilienkonzerne zusätzliche Wohnungen realisieren, sollen sie auch bezahlbare Wohnungen zur Verfügung stellen müssen. Was die SP vor Jahren mit einer kantonalen Initiative angestossen hat, können wir jetzt endlich in der Stadt umsetzen. Es wird in den nächsten vier Jahren aber noch stärkere Eingriffe brauchen, um die Mietexplosion bei den Immobilienkonzernen zu stoppen.</p></li>
-            <li><p><b>Städtische Wohnbaustiftungen und Genossenschaften stärken</b><br>Damit neben der Stadt auch die städtischen Stiftungen und die Genossenschaften mehr Land kaufen und bezahlbaren Wohnraum schaffen können, müssen sie von der Stadt finanziell noch stärker unterstützt werden. Wir fordern darum das Eigenkapital der gemeinnützigen Stiftung PWG und der Stiftung für Alterswohnungen (SAW) mit je 100 Millionen zu erhöhen.</p></li>
+            <li><p><b>Städtische Wohnbaustiftungen und Genossenschaften stärken</b><br>Damit neben der Stadt auch die städtischen Stiftungen und die Genossenschaften mehr Land kaufen und bezahlbaren Wohnraum schaffen können, müssen sie von der Stadt finanziell noch stärker unterstützt werden. Die SP sorgt dafür das Eigenkapital der gemeinnützigen Stiftung PWG und der Stiftung für Alterswohnungen (SAW) mit je 100 Millionen erhöht wird.</p></li>
         </ol>
     </div>
 
@@ -133,8 +133,8 @@ include __DIR__ . "/partials/header.php";
 <section class="home-section" style="--sectionColor: #008d91" id="mitmachen">
 
     <div class="section-container smcont">
-        <h3 class="charttitle">Unterstützen Sie uns bei unserem Kampf!</h3>
-        <p>So können Sie bei unserem Kampf gegen die Immobilienlobby mitmachen:</p>
+        <h3 class="charttitle">Unterstützen Sie uns beim Kampf für mehr bezahlbare Wohnungen!</h3>
+        <p>Gemeinsam können wir dafür sorgen, dass nicht bald die halbe Stadt den Immobilienkonzernen gehört:</p>
         <div id="support-grid">
             <div class="support-item">
                 <h5>Initiative unterstützen</h5>
@@ -144,12 +144,12 @@ include __DIR__ . "/partials/header.php";
             <div class="support-item">
                 <h5>Fahne bestellen</h5>
                 <p>Bestellen Sie jetzt eine Fahne und machen Sie Ihre Unterstützung sichtbar</p>
-                <a href="#" class="support-button">Bestellen</a>
+                <a href="#" class="support-button">Fahne Bestellen</a>
             </div>
             <div class="support-item">
                 <h5>Mitglied werden</h5>
                 <p>Kämpfen Sie mit uns für bezahlbare Wohnungen und werden Sie SP-Mitglied</p>
-                <a href="#" class="support-button">Mitmachen</a>
+                <a href="#" class="support-button">Mitglied werden</a>
             </div>
         </div>
     </div>
@@ -184,11 +184,10 @@ include __DIR__ . "/partials/header.php";
 </div>
 
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="/lib/chartjs/chart.js"></script>
 <script src="/js/apps/charts.js"></script>
 
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="/js/elements/frontpage.js"></script>
+
 <script src="/js/elements/paginate.js"></script>
 
 
