@@ -1,0 +1,78 @@
+#glowCookies-banner {
+    padding: 1.25rem;
+    border-radius: 0;
+}
+
+@media screen and (max-width:454px) {
+    #glowCookies-banner {
+        border-radius: 0;
+    }   
+}
+
+#glowCookies-banner h3 {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0.75rem;
+    font-size: 1.25rem;
+    width: 100%;
+}
+
+#glowCookies-banner p {
+    width: calc(70% - 0.5rem);
+    line-height: 1.25;
+}
+
+#glowCookies-banner .btn__section {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: calc(30% - 0.5rem);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.glowCookies__banner .accept__btn__styles {
+    width: -webkit-fill-available;
+    width: -moz-available
+}
+
+.glowCookies__banner .settings__btn__styles {
+    width: auto;
+    margin-left: 0.5rem;
+}
+
+.glowCookies__banner {
+    max-width: unset;
+    width: calc(100vw - 2.5rem);
+    bottom: 0;
+    left: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1000px) {
+    #glowCookies-banner p {
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+    #glowCookies-banner .btn__section {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 455px) {
+    .glowCookies__banner__2 .btn__section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .btn__section .btn__accept {
+        margin-bottom: 0;
+    }
+}

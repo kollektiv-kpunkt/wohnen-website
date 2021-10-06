@@ -15,15 +15,24 @@
     z-index: 2;
 }
 
+@media screen and (max-width: 980px) {
+    .section-container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    #mietexplosion .section-container {
+        padding-top: calc(var(--navHeight) + 1.5rem);
+    }
+}
+
 .section-container p {
     font-size: 1.1rem;
     font-weight: 500;
 }
 
-.section-container p.chartlabel {
-    margin-top: 0.5rem;
-    font-size: 0.8rem;
-    font-weight: 300;
+.section-container p:last-child {
+    margin-bottom: 0;
 }
 
 .section-bg {

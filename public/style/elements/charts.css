@@ -12,11 +12,12 @@ p.textonchart {
     position: absolute;
     font-weight: 900;
     margin: 0;
+    z-index: -1;
 }
 
 p.textonchart#chart1_1 {
-    top: 8%;
-    left: 74%;
+    top: 7%;
+    left: 71%;
     color: var(--sectionColor);
 }
 
@@ -38,7 +39,7 @@ p.textonchart#chart2_2 {
         font-size: 1rem;
     }
 
-    p.textonchart#chart2_1 { top: 32%}
+    p.textonchart#chart2_1 { top: 28%}
     
     p.textonchart#chart2_2 {top: 60%;}
 }
@@ -55,6 +56,7 @@ p.textonchart#chart2_2 {
 
 img.diff_arrow {
     position: absolute;
+    z-index: -1;
 }
 
 img.diff_arrow#diff_426 {
@@ -87,6 +89,23 @@ img.diff_arrow#diff_600 {
     #comparison_chart_img {
         display: block;
     }
+}
+
+p.chartlabel {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+
+p.savechart {
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--sectionColor);
+    text-decoration: underline;
+    cursor: pointer;
+    display: none;
 }
 
 /* .chart {

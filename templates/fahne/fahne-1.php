@@ -3,8 +3,7 @@ include __DIR__ . "/../partials/header.php";
 ?>
 
 <div class="pageheroine">
-    <div class="heroine-img" style="background-image:url('/img/heroines/fahne.jpg')"></div>
-    <div class="heroine-overlay"></div>
+    <div class="heroine-img" style="background-image:url('/img/heroines/fahne.jpg'); filter: none; background-position-x: 6%"></div>
 </div>
 
 <div class="paper-container mdcont">

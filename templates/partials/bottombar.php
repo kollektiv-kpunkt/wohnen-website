@@ -3,7 +3,7 @@
     <div id="bottom-bar">
         <div id="navlinks">
             <a class="footer-nav-links" href="/datenschutz">Datenschutz</a>
-            <a class="footer-nav-links" href="/datenschutz#impressum">Impressum</a>
+            <a class="footer-nav-links" href="/datenschutz/impressum">Impressum</a>
             <a class="footer-nav-links" href="https://zuerich.spkantonzh.ch/">SP Stadt Zürich</a>
         </div>
         <div id="credits">

@@ -5,12 +5,15 @@ include __DIR__ . "/partials/header.php";
 
 <section class="home-section" style="--sectionColor: #C51E1E" id="mietexplosion">
     <div class="section-container smcont">
-        <h3 class="charttitle">Die Mieten in Zürich haben sich fast verdoppelt:</h3>
-        <div class="chart">
-            <canvas id="chart1"></canvas>
-            <p class="textonchart" id="chart1_1">+85%</p>
+        <div class="chartcontainer" id="cc-1">
+            <h3 class="charttitle">Die Mieten in Zürich haben sich fast verdoppelt:</h3>
+            <div class="chart">
+                <canvas id="chart1"></canvas>
+                <p class="textonchart" id="chart1_1">+85%</p>
+            </div>
+            <p class="chartlabel">Quelle: Mittlerer Preis 3-Zimmerwohnung (80m2), auf Datengrundlage des Index Angebotsmieten Stadt Zürich Wüest und Partner</p>
         </div>
-        <p class="chartlabel">Quelle: Mittlerer Preis 3-Zimmerwohnung (80m2), auf Datengrundlage des Index Angebotsmieten Stadt Zürich Wüest und Partner</p>
+        <p class="savechart" data-ccid="cc-1" data-name="mietvergleich">Grafik herunterladen</p>
         <p>Wohnen in Zürich wird immer teurer. Im Vergleich mit vor 20 Jahren haben sich die Mieten fast verdoppelt. Wohnungen für 5'700 CHF an der Europaallee zeigen, in welche Richtung sich der Wohnungsmarkt bewegt. Geht diese Entwicklung ungebremst weiter, ist Zürich irgendwann nur noch für die Banken- und Software-Elite bezahlbar.</p>
     </div>
     <div class="section-bg"></div>
@@ -20,14 +23,17 @@ include __DIR__ . "/partials/header.php";
 
 <section class="home-section" style="--sectionColor: #088043" id="immokonzerne">
     <div class="section-container smcont">
-        <h3 class="charttitle">Immokonzerne dominieren die ganze Stadt</h3>
-        <div class="chart">
-            <canvas id="chart2"></canvas>
-            <p class="textonchart" id="chart2_1">Immobilienkonzerne</p>
-            <p class="textonchart" id="chart2_2">Genossenschaften und öffentliche Hand</p>
+        <div id="cc-2">
+            <h3 class="charttitle">Immokonzerne dominieren die ganze Stadt</h3>
+            <div class="chart">
+                <canvas id="chart2"></canvas>
+                <p class="textonchart" id="chart2_1">Immobilienkonzerne*</p>
+                <p class="textonchart" id="chart2_2">Genossenschaften und öffentliche Hand</p>
+            </div>
+            <p class="chartlabel">Entwicklung des Anteils von öffentlicher Hand und Genossenschaften <span style="color: var(--red)">(in rot)</span> und Immobilienkonzernen, Pensionskassen, Anlagestiftungen <span style="color: #1f1f8f">(in blau)*</span> am Wohnungsmarkt.<br>
+            Quelle: Statistik Stadt Zürich</p>
         </div>
-        <p class="chartlabel">Entwicklung des Anteils von öffentlicher Hand und Genossenschaften <span style="color: var(--red)">(in rot)</span> und Immobilienkonzernen, Pensionskassen, Anlagestiftungen <span style="color: #1f1f8f">(in blau)</span> am Wohnungsmarkt.<br>
-        Quelle: Statistik Stadt Zürich</p>
+        <p class="savechart" data-ccid="cc-2" data-name="immokonzerne">Grafik herunterladen</p>
         <p>Dass die Wohnungsmieten in den letzten Jahren immer teurer wurden, ist kein Zufall. Immer mehr Immobilienkonzerne und institutionelle Anleger kaufen in Zürich Land und Wohnungen auf. So bringen sie einen immer grösseren Anteil der Wohnungen unter ihre Kontrolle und bereichern sich auf Kosten der Bevölkerung.</p>
     </div>
     <div class="section-bg"></div>
@@ -37,12 +43,15 @@ include __DIR__ . "/partials/header.php";
 
 <section class="home-section" style="--sectionColor: #00466D" id="aktienkurse">
     <div class="section-container smcont">
-        <h3 class="charttitle">Aktionäre profitieren von der Miet-Abzocke:</h3>
-        <div class="chart">
-            <canvas id="chart3"></canvas>
+        <div id="cc-3">
+            <h3 class="charttitle">Aktionäre profitieren von der Miet-Abzocke:</h3>
+            <div class="chart">
+                <canvas id="chart3"></canvas>
+            </div>
+            <p class="chartlabel">Aktienkurse von <span style="color: #1f1f8f">Allreal</span>, <span style="color: red">PSP</span> und <span style="color: purple">mobimo</span> indexiert am Stand vom August 2010.<br>
+            Quelle: SWX SIX Swiss Exchange</p>
         </div>
-        <p class="chartlabel">Aktienkurse von <span style="color: #1f1f8f">Allreal</span>, <span style="color: red">PSP</span> und <span style="color: purple">mobimo</span> indexiert am Stand vom August 2010.<br>
-        Quelle: SWX SIX Swiss Exchange</p>
+        <p class="savechart" data-ccid="cc-3" data-name="aktienkurse">Grafik herunterladen</p>
         <p>Das Auspressen des Zürcher Wohnungsmarktes zahlt sich aus: Die Aktienkurse der grossen Immobilienkonzerne Allreal, PSP und mobimo sind trotz Finanzkrise kräftig gestiegen. Die Zürcher Mieterinnen und Mieter zahlen die Boni der Manager und die Dividenden der Aktionäre.</p>
     </div>
     <div class="section-bg"></div>
@@ -95,16 +104,19 @@ include __DIR__ . "/partials/header.php";
 <section class="home-section" style="--sectionColor: #7a017b" id="mietxeplosion-stoppen">
 
     <div class="section-container smcont">
-        <h3 class="charttitle">Wie können wir die Mietexplosion stoppen?</h3>
-        <p>Um die Mietexplosion langfristig zu stoppen, gibt es nur einen Weg: Die Wohnungen müssen dem Renditemarkt und der Spekulation entzogen werden! Wohnungen von Genossenschaften und der Stadt werden zur Kostenmiete vermietet (gemeinnützig), das heisst, dass die Bewohner:innen mit ihrer Miete nur die Kosten von Land, Bau und Unterhalt bezahlen und keinem Immobilienkonzern noch den Gewinn finanzieren. <b>Darum sind gemeinnützige Wohnungen im Durchschnitt um mindestens 25 % günstiger als die von renditeorientierten Vermieter:innen.</b> Je mehr gemeinnützige Wohnungen, desto tiefer sind die Mieten.</p>
-        <img src="/img/charts/comparison_chart.svg" id="comparison_chart_img" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto">
-        <div class="chart" id="comparison_chart">
-            <canvas id="chart4"></canvas>
-            <img src="/img/charts/diff_426.svg" alt="#" class="diff_arrow" id="diff_426">
-            <img src="/img/charts/diff_570.svg" alt="#" class="diff_arrow" id="diff_570">
-            <img src="/img/charts/diff_600.svg" alt="#" class="diff_arrow" id="diff_600">
+        <div id="cc-4">
+            <h3 class="charttitle">Wie können wir die Mietexplosion stoppen?</h3>
+            <p class="hideonchart">Um die Mietexplosion langfristig zu stoppen, gibt es nur einen Weg: Die Wohnungen müssen dem Renditemarkt und der Spekulation entzogen werden! Wohnungen von Genossenschaften und der Stadt werden zur Kostenmiete vermietet (gemeinnützig), das heisst, dass die Bewohner:innen mit ihrer Miete nur die Kosten von Land, Bau und Unterhalt bezahlen und keinem Immobilienkonzern noch den Gewinn finanzieren. <b>Darum sind gemeinnützige Wohnungen im Durchschnitt um mindestens 25 % günstiger als die von renditeorientierten Vermieter:innen.</b> Je mehr gemeinnützige Wohnungen, desto tiefer sind die Mieten.</p>
+            <img src="/img/charts/comparison_chart.svg" id="comparison_chart_img" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto">
+            <div class="chart" id="comparison_chart">
+                <canvas id="chart4"></canvas>
+                <img src="/img/charts/diff_426.svg" alt="#" class="diff_arrow" id="diff_426">
+                <img src="/img/charts/diff_570.svg" alt="#" class="diff_arrow" id="diff_570">
+                <img src="/img/charts/diff_600.svg" alt="#" class="diff_arrow" id="diff_600">
+            </div>
+            <p class="chartlabel">Quelle: Mittlere Mietpreise 2011-2015 nach Eigentumsgruppe Stadt Zürich, auf der Grundlage vom Jahrbuch der Stadt Zürich</p>
         </div>
-        <p class="chartlabel">Quelle: Mittlere Mietpreise 2011-2015 nach Eigentumsgruppe Stadt Zürich, auf der Grundlage vom Jahrbuch der Stadt Zürich</p>
+        <p class="savechart" data-ccid="cc-4" data-name="mietexplosion-stoppen">Grafik herunterladen</p>
     </div>
 
     <div class="section-bg"></div>
@@ -185,6 +197,7 @@ include __DIR__ . "/partials/header.php";
 
 
 <script src="/lib/chartjs/chart.js"></script>
+<script src="/lib/html2canvas/html2canvas.min.js"></script>
 <script src="/js/apps/charts.js"></script>
 
 

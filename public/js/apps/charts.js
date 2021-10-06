@@ -261,3 +261,34 @@ var chart1 = new Chart(
     document.getElementById('chart4'),
     configChart4
 );
+
+
+
+// DOWNLOAD CHARTS
+
+$(".savechart").click(function() {
+
+    let name = $(this).attr("data-name")
+    $(`#${$(this).attr("data-ccid")} .hideonchart`).css("display", "none")
+    html2canvas(document.querySelector(`#${$(this).attr("data-ccid")}`)).then(function(canvas) {
+        saveAs(canvas.toDataURL(), `${name}.png`);
+    });
+    $(`#${$(this).attr("data-ccid")} .hideonchart`).css("display", "block")
+});
+
+
+function saveAs(uri, filename) {
+    var link = document.createElement('a');
+    if (typeof link.download === 'string') {
+        link.href = uri;
+        link.download = filename;
+        //Firefox requires the link to be in the body
+        document.body.appendChild(link);
+        //simulate click
+        link.click();
+        //remove the link when done
+        document.body.removeChild(link);
+    } else {
+        window.open(uri);
+    }
+}

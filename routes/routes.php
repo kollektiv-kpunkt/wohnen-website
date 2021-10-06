@@ -4,7 +4,7 @@ use Pecee\SimpleRouter\SimpleRouter as Router;
 Router::get('/', function() {
     $page = array(
         "space" => "frontpage",
-        "subtitle" => "- Immohaie stoppen!"
+        "subtitle" => "So stoppen wir die Mietexplosion in Zürich"
     );
     include __DIR__ . "/../templates/home.php";
 });
@@ -12,7 +12,7 @@ Router::get('/', function() {
 Router::get('/initiative', function() {
     $page = array(
         "space" => "page",
-        "subtitle" => "- Initiative unterstützen"
+        "subtitle" => "Jetzt Wohn-Offensive unterstützen!"
     );
     include __DIR__ . "/../templates/initiative/initiative.php";
 });
@@ -20,7 +20,7 @@ Router::get('/initiative', function() {
 Router::get('/initiative-1', function() {
     $page = array(
         "space" => "page",
-        "subtitle" => "- Danke für Ihre Unterstützung!"
+        "subtitle" => "Jetzt Wohn-Offensive unterstützen!"
     );
     include __DIR__ . "/../templates/initiative/initiative-1.php";
 });
@@ -29,7 +29,7 @@ Router::get('/initiative-1', function() {
 Router::get('/fahne', function() {
     $page = array(
         "space" => "page",
-        "subtitle" => "- Jetzt Fahne bestellen!"
+        "subtitle" => "Jetzt kostenlos Fahne bestellen!"
     );
     include __DIR__ . "/../templates/fahne/fahne.php";
 });
@@ -37,7 +37,7 @@ Router::get('/fahne', function() {
 Router::get('/fahne-1', function() {
     $page = array(
         "space" => "page",
-        "subtitle" => "- Jetzt Fahne bestellen!"
+        "subtitle" => "Jetzt kostenlos Fahne bestellen!"
     );
     include __DIR__ . "/../templates/fahne/fahne-1.php";
 });
@@ -45,7 +45,7 @@ Router::get('/fahne-1', function() {
 Router::get('/fahne-2', function() {
     $page = array(
         "space" => "page",
-        "subtitle" => "- Jetzt Fahne bestellen!"
+        "subtitle" => "Jetzt kostenlos Fahne bestellen!"
     );
     include __DIR__ . "/../templates/fahne/fahne-2.php";
 });
@@ -54,7 +54,23 @@ Router::get('/fahne-2', function() {
 Router::get('/spenden', function() {
     $page = array(
         "space" => "page",
-        "subtitle" => "- Jetzt spenden!"
+        "subtitle" => "Mietexplosion stoppen - Jetzt spenden!"
     );
     include __DIR__ . "/../templates/spenden.php";
+});
+
+Router::get('/datenschutz', function() {
+    $page = array(
+        "space" => "page",
+        "subtitle" => "Mietexplosion stoppen - Datenschutz"
+    );
+    include __DIR__ . "/../templates/datenschutz/datenschutz.php";
+});
+
+Router::get('/datenschutz/impressum', function() {
+    $page = array(
+        "space" => "page",
+        "subtitle" => "Mietexplosion stoppen - Impressum"
+    );
+    include __DIR__ . "/../templates/datenschutz/impressum.php";
 });
