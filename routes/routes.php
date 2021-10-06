@@ -49,3 +49,12 @@ Router::get('/fahne-2', function() {
     );
     include __DIR__ . "/../templates/fahne/fahne-2.php";
 });
+
+
+Router::get('/spenden', function() {
+    $page = array(
+        "space" => "page",
+        "subtitle" => "- Jetzt spenden!"
+    );
+    include __DIR__ . "/../templates/spenden.php";
+});

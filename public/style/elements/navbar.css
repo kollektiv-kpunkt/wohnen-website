@@ -92,6 +92,11 @@
 
 
 @media screen and (max-width: 980px) {
+
+    #nav-bar-cont {
+        position: absolute;
+    }
+
     #nav-bar-content {
         display: none;
     }

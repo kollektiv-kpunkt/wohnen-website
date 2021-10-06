@@ -20,7 +20,7 @@ include __DIR__ . "/partials/header.php";
 
 <section class="home-section" style="--sectionColor: #088043" id="immokonzerne">
     <div class="section-container smcont">
-        <h3 class="charttitle">Immokonzerne kaufen Haus um Haus</h3>
+        <h3 class="charttitle">Immokonzerne dominieren die ganze Stadt</h3>
         <div class="chart">
             <canvas id="chart2"></canvas>
             <p class="textonchart" id="chart2_1">Immobilienkonzerne</p>
@@ -96,7 +96,7 @@ include __DIR__ . "/partials/header.php";
 
     <div class="section-container smcont">
         <h3 class="charttitle">Wie können wir die Mietexplosion stoppen?</h3>
-        <p>Um die Mietexplosion langfristig zu stoppen, gibt es nur einen Weg: Die Wohnungen müssen dem Renditemarkt und der Spekulation entzogen werden! Wohnungen von Genossenschaften und der Stadt werden zur Kostenmiete vermietet (gemeinnützig), das heisst, dass die Bewohner:innen mit ihrer Miete nur die Kosten von Land, Bau und Unterhalt bezahlen und keinem Immobilienkonzern noch den Gewinn finanzieren. Darum sind gemeinnützige Wohnungen im Durchschnitt um mindestens 25 % günstiger als die von renditeorientierten Vermieter:innen. Je mehr gemeinnützige Wohnungen, desto tiefer sind die Mieten.</p>
+        <p>Um die Mietexplosion langfristig zu stoppen, gibt es nur einen Weg: Die Wohnungen müssen dem Renditemarkt und der Spekulation entzogen werden! Wohnungen von Genossenschaften und der Stadt werden zur Kostenmiete vermietet (gemeinnützig), das heisst, dass die Bewohner:innen mit ihrer Miete nur die Kosten von Land, Bau und Unterhalt bezahlen und keinem Immobilienkonzern noch den Gewinn finanzieren. <b>Darum sind gemeinnützige Wohnungen im Durchschnitt um mindestens 25 % günstiger als die von renditeorientierten Vermieter:innen.</b> Je mehr gemeinnützige Wohnungen, desto tiefer sind die Mieten.</p>
         <img src="/img/charts/comparison_chart.svg" id="comparison_chart_img" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto">
         <div class="chart" id="comparison_chart">
             <canvas id="chart4"></canvas>
