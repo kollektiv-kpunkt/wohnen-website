@@ -82,7 +82,6 @@
 }
 
 .testimonial-quote {
-    font-size: 1.25rem;
     font-style: italic;
     margin: 0;
     margin-bottom: 0.5rem;
@@ -107,8 +106,7 @@
 /* Paperform */
 
 .paperform-container {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 /* Initiativtext */

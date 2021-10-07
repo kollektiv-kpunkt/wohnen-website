@@ -16,7 +16,7 @@ include __DIR__ . "/../partials/header.php";
             <img src="/img/personen/jacqueline_badran.jpeg" alt="Jacqueline Badran" class="testimonial-img">
             <div class="testimonial-quote-outer">
                 <p class="testimonial-quote">
-                    «9 von 10 Personen würden lieber in einer gemeinnützigen Wohnung zur Kostenmiete leben, statt einem Immobilienkonzern Monat für Monat die übersetzte Rendite zu finanzieren. Darum: Unterstütze jetzt unsere Initiative!»
+                    «9 von 10 Personen würden lieber in einer gemeinnützigen Wohnung zur Kostenmiete leben, statt einem Immobilienkonzern Monat für Monat die übersetzte Rendite zu finanzieren. Darum: <b>Unterstütze jetzt unsere Initiative!</b>»
                 </p>
                 <p class="testimonial-description">
                     <b style="color: var(--red)">Jacqueline Badran</b><br>
@@ -25,7 +25,10 @@ include __DIR__ . "/../partials/header.php";
             </div>
         </div>
         
-        <div data-prefill-inherit="1" data-paperform-id="yrhzauzy" class="paperform-container"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
+        <div id="mitmachen" style="padding-top: 2.5rem">
+            <h2 style="color: var(--red); margin: 0; text-align: center">Hilf mit!</h2>
+            <div data-prefill-inherit="1" data-paperform-id="yrhzauzy" class="paperform-container"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
+        </div>
         
         <h4 style="margin-top: 0">Warum braucht es die Initiative?</h4>
         <p>Die Mieten in der Stadt Zürich haben sich in den letzten 20 Jahren fast verdoppelt. Immobilienkonzerne und dubiose Immobilien-AGs bringen einen immer grösseren Anteil der Wohnungen in der Stadt Zürich in ihren Besitz und bereichern sich schamlos auf Kosten der Bevölkerung. Geht die Entwicklung weiter wie in den letzten 10 Jahren, besitzen Immobilienkonzerne bis 2050 jede zweite Mietwohnungen in der Stadt Zürich. Das müssen wir unbedingt verhindern!</p>
@@ -36,9 +39,9 @@ include __DIR__ . "/../partials/header.php";
         <ol>
             <li>Der Stadtrat erhält den Auftrag, mehr Liegenschaften zu kaufen, anstatt sie den Immobilienkonzernen zu überlassen. Die Wohnungen können in der Folge zur Kostenmiete vermietet werden, damit die Mietenden – wie heute schon bei Genossenschaften – keine Konzern-Renditen bezahlen müssen und entsprechend von tieferen Mieten profitieren.</li>
             <li>Die städtischen Stiftungen PWG (Stiftung zur Erhaltung von preisgünstigen Wohn- und Gewerberäumen), SAW (Stiftung Alterswohnungen) und die Stiftung "Wohnen für kinderreiche Familien" erhalten insgesamt 250 Mio. Franken frisches Eigenkapital. Damit können sie auch mehr bezahlbare Wohnungen realisieren.</li>
-            <li>Mit Darlehen für die städtischen Stiftungen und Bürgschaften für Genossenschaften können diese gemeinnützige Wohnbauträger günstiger Geld aufnehmen und günstigere bezahlbare Wohnungen realisieren.</li>
-            <li>Die Initiative fordert, dass die Stiftung SAW bis 2040 2'000 neuen gemeinnützige Alterswohnungen realisieren muss.</li>
-            <li>Ein zusätzliches Augenmerk legt die Initiative auf Menschen in besonders prekären Lebenssituationen, die es auf dem Wohnungsmarkt speziell schwierig haben. 5 % der neuen Wohnungen sollen deshalb gezielt und unkompliziert an sozial benachteiligte Mitmenschen vermietet werden.</li>
+            <li>Mit Darlehen für die städtischen Stiftungen und Bürgschaften für Genossenschaften können diese gemeinnützigen Wohnbauträger günstiger Geld aufnehmen und noch mehr bezahlbare bezahlbare Wohnungen realisieren.</li>
+            <li>Die Initiative fordert, dass die Stiftung SAW bis 2040 2'000 neue gemeinnützige Alterswohnungen realisieren muss.</li>
+            <li>Ein zusätzliches Augenmerk legt die Initiative auf Menschen in besonders prekären Lebenssituationen, die es auf dem Wohnungsmarkt speziell schwer haben. 5 % der neuen Wohnungen sollen deshalb gezielt und unkompliziert an sozial benachteiligte Mitmenschen vermietet werden.</li>
         </ol>
     </div>
 </div>

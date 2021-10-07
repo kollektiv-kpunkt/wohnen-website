@@ -11,10 +11,10 @@ include __DIR__ . "/partials/header.php";
                 <canvas id="chart1"></canvas>
                 <p class="textonchart" id="chart1_1">+85%</p>
             </div>
-            <p class="chartlabel">Quelle: Mittlerer Preis 3-Zimmerwohnung (80m2), auf Datengrundlage des Index Angebotsmieten Stadt Zürich Wüest und Partner</p>
+            <p class="chartlabel">Quelle: Mittlerer Preis einer 3-Zimmerwohnung (80m2), auf Datengrundlage des Index Angebotsmieten Stadt Zürich (Wüest und Partner)</p>
         </div>
         <p class="savechart" data-ccid="cc-1" data-name="mietvergleich">Grafik herunterladen</p>
-        <p>Wohnen in Zürich wird immer teurer. Im Vergleich mit vor 20 Jahren haben sich die Mieten fast verdoppelt. Wohnungen für 5'700 CHF an der Europaallee zeigen, in welche Richtung sich der Wohnungsmarkt bewegt. Geht diese Entwicklung ungebremst weiter, ist Zürich irgendwann nur noch für die Banken- und Software-Elite bezahlbar.</p>
+        <p>Wohnen in Zürich wird immer teurer. In den letzten 20 Jahren haben sich die Mieten fast verdoppelt. Wohnungen für 5'700 CHF an der Europaallee zeigen, in welche Richtung sich der Wohnungsmarkt bewegt. Geht diese Entwicklung ungebremst weiter, ist Zürich bald nur noch für die Banken- und Software-Elite bezahlbar.</p>
     </div>
     <div class="section-bg"></div>
     <div class="section-img" style="background-image: url('/img/sections/1.jpg');"></div>
@@ -48,7 +48,7 @@ include __DIR__ . "/partials/header.php";
             <div class="chart">
                 <canvas id="chart3"></canvas>
             </div>
-            <p class="chartlabel">Aktienkurse von <span style="color: #1f1f8f">Allreal</span>, <span style="color: red">PSP</span> und <span style="color: purple">mobimo</span> indexiert am Stand vom August 2010.<br>
+            <p class="chartlabel">Aktienkurse von <span style="color: #1f1f8f">Allreal</span>, <span style="color: red">PSP</span> und <span style="color: purple">mobimo</span> indexiert am Stand vom August 2009.<br>
             Quelle: SWX SIX Swiss Exchange</p>
         </div>
         <p class="savechart" data-ccid="cc-3" data-name="aktienkurse">Grafik herunterladen</p>
@@ -63,7 +63,7 @@ include __DIR__ . "/partials/header.php";
 
     <div class="section-container smcont">
         <h3 class="charttitle">FDP und SVP planen im Bundeshaus noch höhere Mieten</h3>
-        <p>Die rechtskonservativen Parteien wollen ihren Freunden in den Verwaltungsräten der Immobilienkonzerne noch höhere Renditen zuschaufeln: Auf ihre Forderungen berät das Parlament nun verschiedene Gesetzesänderungen, die die Rechte der Mieter:innen weiter einschränken und noch krassere Mietsteigerungen erlauben.</p>
+        <p>Die rechtskonservativen Parteien wollen ihren Freunden in den Verwaltungsräten der Immobilienkonzerne noch höhere Renditen zuschaufeln. Auf ihre Forderungen berät das Parlament nun verschiedene Gesetzesänderungen, die die Rechte der Mieter:innen weiter einschränken und noch krassere Mietsteigerungen erlauben.</p>
         <div id="people-grid">
             <div class="person">
                 <div class="person-img-container">
@@ -71,7 +71,7 @@ include __DIR__ . "/partials/header.php";
                 </div>
                 <p class="person-content text_small">
                     <b>Albert Leiser (FDP)</b><br>
-                    als ehem. Verwaltungsrat von Allreal erhielt Leiser 80'000&nbsp;CHF pro Jahr
+                    Als ehem. Verwaltungsrat von Allreal erhielt Leiser 80'000&nbsp;CHF pro Jahr
                 </p>
             </div>
             <div class="person">
@@ -90,7 +90,7 @@ include __DIR__ . "/partials/header.php";
                 </div>
                 <p class="person-content text_small">
                     <b>Georges Theiler (FDP)</b><br>
-                    als ehem. Verwaltungsrat von mobimo erhielt Theiler 361'000&nbsp;CHF pro Jahr
+                    Als ehem. Verwaltungsrat von mobimo erhielt Theiler 361'000&nbsp;CHF pro Jahr
                 </p>
             </div>
         </div>
@@ -106,7 +106,7 @@ include __DIR__ . "/partials/header.php";
     <div class="section-container smcont">
         <div id="cc-4">
             <h3 class="charttitle">Wie können wir die Mietexplosion stoppen?</h3>
-            <p class="hideonchart">Um die Mietexplosion langfristig zu stoppen, gibt es nur einen Weg: Die Wohnungen müssen dem Renditemarkt und der Spekulation entzogen werden! Wohnungen von Genossenschaften und der Stadt werden zur Kostenmiete vermietet (gemeinnützig), das heisst, dass die Bewohner:innen mit ihrer Miete nur die Kosten von Land, Bau und Unterhalt bezahlen und keinem Immobilienkonzern noch den Gewinn finanzieren. <b>Darum sind gemeinnützige Wohnungen im Durchschnitt um mindestens 25 % günstiger als die von renditeorientierten Vermieter:innen.</b> Je mehr gemeinnützige Wohnungen, desto tiefer sind die Mieten.</p>
+            <p class="hideonchart">Um die Mietexplosion langfristig zu stoppen, gibt es nur einen Weg: Die Wohnungen müssen dem Renditemarkt und der Spekulation entzogen werden! Wohnungen von Genossenschaften und der Stadt werden zur Kostenmiete vermietet (gemeinnützig). Das heisst, dass die Bewohner:innen mit ihrer Miete nur die Kosten von Land, Bau und Unterhalt bezahlen und keinem Immobilienkonzern noch den Gewinn finanzieren. <b>Darum sind gemeinnützige Wohnungen im Durchschnitt um mindestens 25 % günstiger als die von renditeorientierten Vermieter:innen.</b> Je mehr gemeinnützige Wohnungen, desto tiefer sind die Mieten.</p>
             <img src="/img/charts/comparison_chart.svg" id="comparison_chart_img" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto">
             <div class="chart" id="comparison_chart">
                 <canvas id="chart4"></canvas>
@@ -133,7 +133,7 @@ include __DIR__ . "/partials/header.php";
         <ol>
             <li><p><b>Die Stadt muss jedes Jahr 500 Wohnungen kaufen und so dem Renditemarkt entziehen</b><br>Wir dürfen den Wohnungsmarkt nicht den Immobilienkonzernen überlassen. Darum kämpft die SP dafür, dass die Stadt viel mehr Land und Wohnungen kauft und bezahlbar vermietet. Dank der SP hat der Stadtrat neu die Kompetenz, durch den Kauf von Häusern die steigenden Mieten zu bekämpfen.</p></li>
             <li><p><b>Immobilienkonzerne verpflichten, günstige Wohnungen zur Verfügung zu stellen</b><br>Wenn Immobilienkonzerne zusätzliche Wohnungen realisieren, sollen sie auch bezahlbare Wohnungen zur Verfügung stellen müssen. Was die SP vor Jahren mit einer kantonalen Initiative angestossen hat, können wir jetzt endlich in der Stadt umsetzen. Es wird in den nächsten vier Jahren aber noch stärkere Eingriffe brauchen, um die Mietexplosion bei den Immobilienkonzernen zu stoppen.</p></li>
-            <li><p><b>Städtische Wohnbaustiftungen und Genossenschaften stärken</b><br>Damit neben der Stadt auch die städtischen Stiftungen und die Genossenschaften mehr Land kaufen und bezahlbaren Wohnraum schaffen können, müssen sie von der Stadt finanziell noch stärker unterstützt werden. Die SP sorgt dafür das Eigenkapital der gemeinnützigen Stiftung PWG und der Stiftung für Alterswohnungen (SAW) mit je 100 Millionen erhöht wird.</p></li>
+            <li><p><b>Städtische Wohnbaustiftungen und Genossenschaften stärken</b><br>Damit neben der Stadt auch die städtischen Stiftungen und die Genossenschaften mehr Land kaufen und bezahlbaren Wohnraum schaffen können, müssen sie von der Stadt finanziell noch stärker unterstützt werden. Die SP sorgt dafür, dass das Eigenkapital der gemeinnützigen Stiftung PWG und der Stiftung für Alterswohnungen (SAW) mit je 100 Millionen erhöht wird.</p></li>
         </ol>
     </div>
 

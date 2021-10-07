@@ -9,7 +9,7 @@ include __DIR__ . "/../partials/header.php";
 <div class="paper-container mdcont">
     <div class="paper">
         <h2 class="paper-title">Jetzt kostenlos Fahne bestellen!</h2>
-        <p class="lead">Wir wollen in ganz Zürich sichtbar machen, dass es mehr bezahlbare Wohnungen braucht. Bestelle jetzt kostenlos eine Fahne für den Balkon oder einen Kleber für die Trinkflasche:</p>
+        <p class="lead">Wir wollen in ganz Zürich sichtbar machen, dass es mehr bezahlbare Wohnungen braucht. Bestelle jetzt kostenlos eine Fahne für den Balkon oder einen Kleber für die Trinkflasche/den Laptop:</p>
 
         <div data-prefill-inherit="1" data-paperform-id="dra0kwie" class="paperform-container"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
         

@@ -246,11 +246,9 @@ var configChart4 = {
         aspectRatio: (3/2),
         scales: {
             y: {
+                // display: false,
                 ticks: {
-                    // Include a dollar sign in the ticks
-                    callback: function(value, index, values) {
-                        return value + " CHF";
-                    }
+                    display: false
                 }
             }
         }

@@ -40,3 +40,17 @@ var setMenuitem = function setMenuitem() {
     $(`.menu-item[href="${window.location.pathname}"]`).addClass("current-item")
 }
 window.addEventListener("DOMContentLoaded", setMenuitem, false);
+
+function hasWebP() {
+    var rv = $.Deferred();
+    var img = new Image();
+    img.onload = function() { rv.resolve(); };
+    img.onerror = function() { rv.reject(); };
+    img.src = 'http://www.gstatic.com/webp/gallery/1.webp';
+    return rv.promise();
+}
+
+hasWebP().then(function() {
+}, function() {
+    console.log("I don't support WebP")
+});
