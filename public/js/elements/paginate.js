@@ -20,12 +20,15 @@ var selectSection = function selectSection() {
     if (currentSection.ID !== localStorage.getItem("currentSection")) {
         $(".section-link.current").removeClass("current")
         $(`.section-link[href="#${currentSection.ID}"]`).addClass("current")
+        setTimeout(() => {
+            $(`#${currentSection.ID} .section-container`).addClass("active")
+        }, 250);
         localStorage.setItem("currentSection", currentSection.ID)
     }
 }
 
-window.addEventListener("scroll", selectSection, false)
 window.addEventListener("load", selectSection, false)
+window.addEventListener("scroll", selectSection, false)
 
 window.addEventListener("DOMContentLoaded", setSections, false)
 window.addEventListener("load", setSections, false)

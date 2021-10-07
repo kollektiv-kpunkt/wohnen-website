@@ -13,6 +13,14 @@
     margin: auto 0;
     position: relative;
     z-index: 2;
+    opacity: 0;
+    transform: translateY(25px);
+    transition: 0.25s linear opacity, 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) transform;
+}
+
+.section-container.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 @media screen and (max-width: 980px) {

@@ -4,7 +4,7 @@ include __DIR__ . "/partials/header.php";
 
 
 <section class="home-section" style="--sectionColor: #C51E1E" id="mietexplosion">
-    <div class="section-container smcont">
+    <div class="section-container active smcont">
         <div class="chartcontainer" id="cc-1">
             <h3 class="charttitle">Die Mieten in Zürich haben sich fast verdoppelt:</h3>
             <div class="chart">
