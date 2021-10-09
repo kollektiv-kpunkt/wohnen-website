@@ -13,6 +13,8 @@ var setSections = function setSections() {
     localStorage.setItem("sections", JSON.stringify(sections))
 }
 
+localStorage.setItem("currentSection", "")
+
 var selectSection = function selectSection() {
     var sections = JSON.parse(localStorage.getItem("sections"))
     var scrollPosition = $(document).scrollTop()

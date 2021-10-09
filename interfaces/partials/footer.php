@@ -9,7 +9,7 @@
 <script>
     glowCookies.start('en', { 
         hideAfterClick: true,
-        policyVersion: 1,
+        policyVersion: 3,
         border: 'none',
         customScript: [{ type: 'src', position: 'head', content: '/js/elements/matomo.js' }],
         facebookPixel: '1646016935436389',

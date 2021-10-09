@@ -61,48 +61,6 @@
     margin-top: 0.5rem;
 }
 
-/* Testimonial */
-.testimonial {
-    display: flex;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-}
-
-.testimonial-img {
-    width: calc(30% - 0.75rem - 10px);
-    height: auto;
-    align-self: center;
-    border-radius: 50%;
-    border: 5px solid var(--red);
-}
-
-.testimonial-quote-outer {
-    margin: auto;
-    width: calc(70% - 0.75rem);
-}
-
-.testimonial-quote {
-    font-style: italic;
-    margin: 0;
-    margin-bottom: 0.5rem;
-}
-
-.testimonial-description {
-    margin: 0;
-}
-
-@media screen and (max-width: 580px) {
-    .testimonial-img {
-        width: 100%;
-        max-width: 5.5cm;
-        margin: auto;
-    }
-    
-    .testimonial-quote-outer {
-        width: 100%;
-    }
-}
-
 /* Paperform */
 
 .paperform-container {

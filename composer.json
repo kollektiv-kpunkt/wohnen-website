@@ -1,5 +1,6 @@
 {
     "require": {
-        "pecee/simple-router": "4.3.6.1"
+        "pecee/simple-router": "4.3.6.1",
+        "matomo/matomo-php-tracker": "^3.0"
     }
 }
