@@ -25,12 +25,12 @@ include __DIR__ . "/partials/header.php";
     <div class="section-container smcont">
         <div class="chartcontainer" id="cc-2">
             <h3 class="charttitle">Die Mietenden zahlen jedes Jahr 14 Milliarden zu viel</h3>
-            <img src="/img/charts/rent_chart.svg" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto">
+            <img src="/img/charts/rent_chart.svg" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto" loading="lazy">
             <p class="chartlabel">Quelle: BFS, BWO, Raiffeisen Investment Office</p>
         </div>
         <p class="savechart" data-ccid="cc-2" data-name="mietexplosion">Grafik herunterladen</p>
         <div class="testimonial frontpage">
-            <img src="/img/personen/jacqueline_badran.jpeg" alt="Jacqueline Badran" class="testimonial-img">
+            <img src="/img/personen/jacqueline_badran.jpeg" alt="Jacqueline Badran" class="testimonial-img" loading="lazy">
             <div class="testimonial-quote-outer">
                 <p class="testimonial-quote">
                     «Eine Studie der Raiffeisen Bank zeigt, dass der Trend in die komplett falsche Richtung geht: Eigentlich müssten die Mieten wegen der rekordtiefen Zinsen seit Jahren sinken (Mieten sind an den Hypothekarzins gekoppelt). Sie sind aber rund 40% höher als gesetzlich vorgegeben. Das sind satte 14 Milliarden Franken, die den Mietenden Jahr für Jahr zu viel aus der Tasche gezogen werden.»
@@ -93,7 +93,7 @@ include __DIR__ . "/partials/header.php";
         <div id="people-grid">
             <div class="person">
                 <div class="person-img-container">
-                    <img src="/img/personen/albert_leiser.jpg" alt="Albert Leiser">
+                    <img src="/img/personen/albert_leiser.jpg" alt="Albert Leiser" loading="lazy">
                 </div>
                 <p class="person-content text_small">
                     <b>Albert Leiser (FDP)</b><br>
@@ -102,7 +102,7 @@ include __DIR__ . "/partials/header.php";
             </div>
             <div class="person">
                 <div class="person-img-container">
-                    <img src="/img/personen/peter_spuhler.jpg" alt="Peter Spuhler">
+                    <img src="/img/personen/peter_spuhler.jpg" alt="Peter Spuhler" loading="lazy">
                 </div>
                 <p class="person-content text_small">
                     <b>Peter Spuhler (SVP)</b><br>
@@ -112,7 +112,7 @@ include __DIR__ . "/partials/header.php";
             </div>
             <div class="person">
                 <div class="person-img-container">
-                    <img src="/img/personen/georges_theiler.jpg" alt="Georges Theiler">
+                    <img src="/img/personen/georges_theiler.jpg" alt="Georges Theiler" loading="lazy">
                 </div>
                 <p class="person-content text_small">
                     <b>Georges Theiler (FDP)</b><br>
@@ -136,9 +136,9 @@ include __DIR__ . "/partials/header.php";
             <img src="/img/charts/comparison_chart.svg" id="comparison_chart_img" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto">
             <div class="chart" id="comparison_chart">
                 <canvas id="chart4"></canvas>
-                <img src="/img/charts/diff_426.svg" alt="#" class="diff_arrow" id="diff_426">
-                <img src="/img/charts/diff_570.svg" alt="#" class="diff_arrow" id="diff_570">
-                <img src="/img/charts/diff_600.svg" alt="#" class="diff_arrow" id="diff_600">
+                <img src="/img/charts/diff_426.svg" alt="#" class="diff_arrow" id="diff_426" loading="lazy">
+                <img src="/img/charts/diff_570.svg" alt="#" class="diff_arrow" id="diff_570" loading="lazy">
+                <img src="/img/charts/diff_600.svg" alt="#" class="diff_arrow" id="diff_600" loading="lazy">
             </div>
             <p class="chartlabel">Quelle: Mittlere Mietpreise 2011-2015 nach Eigentumsgruppe Stadt Zürich, auf der Grundlage vom Jahrbuch der Stadt Zürich</p>
         </div>
@@ -187,7 +187,7 @@ include __DIR__ . "/partials/header.php";
             <div class="support-item">
                 <h5>Mitglied werden</h5>
                 <p>Kämpfen Sie mit uns für bezahlbare Wohnungen und werden Sie SP-Mitglied</p>
-                <a href="https://mitglied-werden.sp-ps.ch/" target="_blank" class="support-button">Mitglied werden</a>
+                <a href="https://mitglied-werden.sp-ps.ch/" target="_blank" rel="noreferrer" class="support-button">Mitglied werden</a>
             </div>
         </div>
     </div>
