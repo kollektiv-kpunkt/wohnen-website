@@ -226,7 +226,6 @@ include __DIR__ . "/partials/header.php";
 
 
 <script src="/lib/chartjs/chart.js"></script>
-<script src="/lib/html2canvas/html2canvas.min.js"></script>
 <script src="/js/apps/charts.js"></script>
 
 
