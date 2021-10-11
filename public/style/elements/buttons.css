@@ -1,0 +1,52 @@
+.button {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+
+    color: var(--btncolor);
+    background-color: var(--btnbgcolor);
+
+    border-radius: 2px;
+
+    padding: 0.6em 1.5em;
+    display: inline-block;
+
+    --btncolor: white;
+    --btnbgcolor: var(--red);
+}
+
+.button.neg {
+    --btncolor: var(--red);
+    --btnbgcolor: white;
+}
+
+.button.line {
+    background-color: transparent;
+    color: var(--btnbgcolor);
+    border: 0.1em solid var(--btnbgcolor);
+}
+
+.pm_button {
+    margin-top: -1rem;
+}
+
+a.readmore {
+    font-size: 1.25rem;
+    color: var(--red);
+    text-decoration: 0;
+    padding: 0.125em 0.25em;
+    background-image: linear-gradient(to right,var(--red) 0,var(--red) 100%);
+    background-size: 100% 10%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    transition: 0.25s background-size, 0.125s color;
+}
+
+a.readmore:hover {
+    color: white;
+    background-size: 100% 100%;
+    border-radius: 0.07em;
+}

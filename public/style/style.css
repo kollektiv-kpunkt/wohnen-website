@@ -11,4 +11,6 @@
 @import url("elements.css");
 @import url("elements/navbar.css");
 @import url("elements/charts.css");
+@import url("elements/buttons.css");
 @import url("elements/paginator.css");
+@import url("elements/testimonial.css");

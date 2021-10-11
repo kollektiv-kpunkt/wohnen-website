@@ -1,0 +1,39 @@
+#main-content {
+    height: 100vh;
+    height: calc(100 * var(--vh));
+    display: flex;
+}
+
+#share-container {
+    margin: auto;
+    max-width: 21cm;
+    text-align: center;
+}
+
+#share-container h1 {
+    margin-bottom: 0;
+}
+
+#share-container p {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#share-content {
+    position: relative;
+    z-index: 3;
+    color: var(--sectionColor);
+}
+
+#share-overlay {
+    background-color: var(--sectionColor);
+    opacity: 0.15;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}

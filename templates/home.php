@@ -4,7 +4,7 @@ include __DIR__ . "/partials/header.php";
 
 
 <section class="home-section" style="--sectionColor: #C51E1E" id="mietexplosion">
-    <div class="section-container active smcont">
+    <div class="section-container smcont">
         <div class="chartcontainer" id="cc-1">
             <h3 class="charttitle">Die Mieten in Zürich haben sich fast verdoppelt:</h3>
             <div class="chart">
@@ -14,10 +14,36 @@ include __DIR__ . "/partials/header.php";
             <p class="chartlabel">Quelle: Mittlerer Preis einer 3-Zimmerwohnung (80m2), auf Datengrundlage des Index Angebotsmieten Stadt Zürich (Wüest und Partner)</p>
         </div>
         <p class="savechart" data-ccid="cc-1" data-name="mietvergleich">Grafik herunterladen</p>
-        <p>Wohnen in Zürich wird immer teurer. In den letzten 20 Jahren haben sich die Mieten fast verdoppelt. Wohnungen für 5'700 CHF an der Europaallee zeigen, in welche Richtung sich der Wohnungsmarkt bewegt. Geht diese Entwicklung ungebremst weiter, ist Zürich bald nur noch für die Banken- und Software-Elite bezahlbar.</p>
+        <p>Wohnen in Zürich wird immer teurer. In den letzten 20 Jahren haben sich die Mieten fast verdoppelt. Wohnungen für 5'700 CHF an der Europaallee zeigen, in welche Richtung sich das Wohnungsangebot bewegt. Geht diese Entwicklung ungebremst weiter, ist Zürich bald nur noch für die Banken- und Software-Elite bezahlbar.</p>
     </div>
     <div class="section-bg"></div>
     <div class="section-img" style="background-image: url('/img/sections/1.jpg');"></div>
+
+</section>
+
+<section class="home-section" style="--sectionColor: #008d91" id="mietexplosion2">
+    <div class="section-container smcont">
+        <div class="chartcontainer" id="cc-2">
+            <h3 class="charttitle">Die Mietenden zahlen jedes Jahr 14 Milliarden zu viel</h3>
+            <img src="/img/charts/rent_chart.svg" alt="Vergleich Mieten gemeinnütziger und privater Wohnungen" style="width: 100%; height: auto">
+            <p class="chartlabel">Quelle: BFS, BWO, Raiffeisen Investment Office</p>
+        </div>
+        <p class="savechart" data-ccid="cc-2" data-name="mietexplosion">Grafik herunterladen</p>
+        <div class="testimonial frontpage">
+            <img src="/img/personen/jacqueline_badran.jpeg" alt="Jacqueline Badran" class="testimonial-img">
+            <div class="testimonial-quote-outer">
+                <p class="testimonial-quote">
+                    «Eine Studie der Raiffeisen Bank zeigt, dass der Trend in die komplett falsche Richtung geht: Eigentlich müssten die Mieten wegen der rekordtiefen Zinsen seit Jahren sinken (Mieten sind an den Hypothekarzins gekoppelt). Sie sind aber rund 40% höher als gesetzlich vorgegeben. Das sind satte 14 Milliarden Franken, die den Mietenden Jahr für Jahr zu viel aus der Tasche gezogen werden.»
+                </p>
+                <p class="testimonial-description">
+                    <b>Jacqueline Badran</b><br>
+                    Nationalrätin SP
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="section-bg"></div>
+    <div class="section-img" style="background-image: url('/img/sections/3.jpg');"></div>
 
 </section>
 
@@ -34,7 +60,7 @@ include __DIR__ . "/partials/header.php";
             Quelle: Statistik Stadt Zürich</p>
         </div>
         <p class="savechart" data-ccid="cc-2" data-name="immokonzerne">Grafik herunterladen</p>
-        <p>Dass die Wohnungsmieten in den letzten Jahren immer teurer wurden, ist kein Zufall. Immer mehr Immobilienkonzerne und institutionelle Anleger kaufen in Zürich Land und Wohnungen auf. So bringen sie einen immer grösseren Anteil der Wohnungen unter ihre Kontrolle und bereichern sich auf Kosten der Bevölkerung.</p>
+        <p>Dass die Wohnungsmieten in den letzten Jahren trotz rekordtiefer Zinsen immer teurer wurden, ist kein Zufall. Immer mehr Immobilienkonzerne und institutionelle Anleger kaufen in Zürich Land und Wohnungen auf. So bringen sie einen immer grösseren Anteil der Wohnungen unter ihre Kontrolle und bereichern sich mit illegal übersetzten Mieten auf Kosten der Bevölkerung. Und das passiert, obwohl die Stimmbevölkerung 2011 einer Initiative der SP mit 76% zugestimmt hat, wonach der Anteil an gemeinnützigen Wohnungen in der Stadt Zürich auf mindestens 33% steigen soll.</p>
     </div>
     <div class="section-bg"></div>
     <div class="section-img" style="background-image: url('/img/sections/2.jpg');"></div>
@@ -52,7 +78,7 @@ include __DIR__ . "/partials/header.php";
             Quelle: SWX SIX Swiss Exchange</p>
         </div>
         <p class="savechart" data-ccid="cc-3" data-name="aktienkurse">Grafik herunterladen</p>
-        <p>Das Auspressen des Zürcher Wohnungsmarktes zahlt sich aus: Die Aktienkurse der grossen Immobilienkonzerne Allreal, PSP und mobimo sind trotz Finanzkrise kräftig gestiegen. Die Zürcher Mieterinnen und Mieter zahlen die Boni der Manager und die Dividenden der Aktionäre.</p>
+        <p>Das Auspressen der Zürcher Wohnungs- und Geschäftsmieten zahlt sich aus: Die Aktienkurse der grossen Immobilienkonzerne Allreal, PSP und mobimo sind trotz Finanzkrise kräftig gestiegen. Die Mieter:innen und das Gewerbe zahlen die Boni der Manager und die Dividenden der Aktionäre. Und die Zürcher Steuerzahlenden finanzieren die kräftigen Wertsteigerungen der Immobilien durch staatliche Infrastruktur-Investitionen.</p>
     </div>
     <div class="section-bg"></div>
     <div class="section-img" style="background-image: url('/img/sections/3.jpg');"></div>
@@ -129,7 +155,7 @@ include __DIR__ . "/partials/header.php";
     <div class="section-container smcont">
         <h3 class="charttitle">Was macht die SP, um mehr bezahlbare Wohnungen zu ermöglichen?</h3>
         <p>Es braucht jetzt entschiedenes Handeln, sonst gehört bis 2050 jede zweite Wohnung in der Stadt Zürich einem Immobilienkonzern – und die Mieten steigen weiter. Das dürfen wir auf keinen Fall zulassen!</p>
-        <p>Die SP sorgt darum dafür, dass die Immobilienkonzerne wieder aus Zürich zurückgedrängt werden und in den nächsten Jahren endlich mehr bezahlbare Wohnungen entstehen:</p>
+        <p>Die SP sorgt darum dafür, dass Immobilienkonzernen und dubiose Immobilien-AGs wieder aus Zürich zurückgedrängt werden und in den nächsten Jahren endlich mehr bezahlbare Wohnungen entstehen, wie sie die Stimmbevölkerung immer wieder verlangt hat:</p>
         <ol>
             <li><p><b>Die Stadt muss jedes Jahr 500 Wohnungen kaufen und so dem Renditemarkt entziehen</b><br>Wir dürfen den Wohnungsmarkt nicht den Immobilienkonzernen überlassen. Darum kämpft die SP dafür, dass die Stadt viel mehr Land und Wohnungen kauft und bezahlbar vermietet. Dank der SP hat der Stadtrat neu die Kompetenz, durch den Kauf von Häusern die steigenden Mieten zu bekämpfen.</p></li>
             <li><p><b>Immobilienkonzerne verpflichten, günstige Wohnungen zur Verfügung zu stellen</b><br>Wenn Immobilienkonzerne zusätzliche Wohnungen realisieren, sollen sie auch bezahlbare Wohnungen zur Verfügung stellen müssen. Was die SP vor Jahren mit einer kantonalen Initiative angestossen hat, können wir jetzt endlich in der Stadt umsetzen. Es wird in den nächsten vier Jahren aber noch stärkere Eingriffe brauchen, um die Mietexplosion bei den Immobilienkonzernen zu stoppen.</p></li>
@@ -174,6 +200,9 @@ include __DIR__ . "/partials/header.php";
 <div class="paginator">
     <div class="section-button">
         <a href="#mietexplosion" class="section-link current"></a>
+    </div>
+    <div class="section-button">
+        <a href="#mietexplosion2" class="section-link"></a>
     </div>
     <div class="section-button">
         <a href="#immokonzerne" class="section-link"></a>
