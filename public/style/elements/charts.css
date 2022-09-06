@@ -16,8 +16,8 @@ p.textonchart {
 }
 
 p.textonchart#chart1_1 {
-    top: 7%;
-    left: 71%;
+    top: 23%;
+    left: 73%;
     color: var(--sectionColor);
 }
 
@@ -40,7 +40,7 @@ p.textonchart#chart2_2 {
     }
 
     p.textonchart#chart2_1 { top: 28%}
-    
+
     p.textonchart#chart2_2 {top: 60%;}
 }
 
@@ -85,7 +85,7 @@ img.diff_arrow#diff_600 {
     #comparison_chart {
         display: none;
     }
-    
+
     #comparison_chart_img {
         display: block;
     }
@@ -114,7 +114,7 @@ p.savechart {
     height: 400px;
     max-height: 50vh;
     margin: 0 auto;
-} 
+}
 
 .chart svg {overflow: visible;}
 
