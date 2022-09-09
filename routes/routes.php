@@ -4,7 +4,7 @@ use Pecee\SimpleRouter\SimpleRouter as Router;
 Router::get('/', function() {
     $page = array(
         "space" => "frontpage",
-        "subtitle" => "So stoppen wir die Mietexplosion in Zürich"
+        "subtitle" => "Jetzt Initiative unterschreiben!"
     );
     include __DIR__ . "/../templates/home.php";
 });
@@ -12,7 +12,7 @@ Router::get('/', function() {
 Router::get('/initiative', function() {
     $page = array(
         "space" => "page",
-        "subtitle" => "Jetzt Wohn-Offensive unterstützen!"
+        "subtitle" => "Jetzt Initiative unterschreiben!"
     );
     include __DIR__ . "/../templates/initiative/initiative.php";
 });
@@ -20,7 +20,7 @@ Router::get('/initiative', function() {
 Router::get('/initiative-1', function() {
     $page = array(
         "space" => "page",
-        "subtitle" => "Jetzt Wohn-Offensive unterstützen!"
+        "subtitle" => "Jetzt Initiative unterschreiben!"
     );
     include __DIR__ . "/../templates/initiative/initiative-1.php";
 });
