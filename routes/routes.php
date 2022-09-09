@@ -87,7 +87,7 @@ Router::get('/weiterleiten', function() {
 
     $params = array(
         "url" => urlencode("https://mietexplosion-stoppen.ch/initiative#mitmachen"),
-        "text" => urlencode("Die Mieten in der Stadt Zürich haben sich in den letzten 20 Jahren fast verdoppelt. Darum habe ich soeben die neue SP-Initiative für mehr bezahlbare Wohnungen unterstützt. Machst Du auch mit? www.mietexplosion-stoppen.ch/initiative#mitmachen\nMerci!"),
+        "text" => urlencode("Die Mieten im Kanton Zürich sind in den letzten 20 Jahren um fast 50% gestiegen. Darum habe ich soeben die neue Initiative für mehr bezahlbare Wohnungen unterschrieben. Machst Du auch mit? www.mietexplosion-stoppen.ch/initiative#mitmachen\nMerci!"),
         "type" => "WA"
     );
     include __DIR__ . "/../interfaces/shareInterface.php";
@@ -102,7 +102,7 @@ Router::get('/teilen', function() {
 
     $params = array(
         "url" => urlencode("https://mietexplosion-stoppen.ch/initiative#mitmachen"),
-        "text" => urlencode("Die Mieten in der Stadt Zürich haben sich in den letzten 20 Jahren fast verdoppelt. Darum habe ich soeben die neue SP-Initiative für mehr bezahlbare Wohnungen unterstützt. Machst Du auch mit? www.mietexplosion-stoppen.ch/initiative#mitmachen\nMerci!"),
+        "text" => urlencode("Die Mieten im Kanton Zürich sind in den letzten 20 Jahren um fast 50% gestiegen. Darum habe ich soeben die neue Initiative für mehr bezahlbare Wohnungen unterschrieben. Machst Du auch mit? www.mietexplosion-stoppen.ch/initiative#mitmachen\nMerci!"),
         "type" => "tele"
     );
     include __DIR__ . "/../interfaces/shareInterface.php";
@@ -116,7 +116,7 @@ Router::get('/fahne-weiterleiten', function() {
 
     $params = array(
         "url" => urlencode("https://mietexplosion-stoppen.ch/fahne"),
-        "text" => urlencode("Die Mieten in der Stadt Zürich haben sich in den letzten 20 Jahren fast verdoppelt, immer mehr Wohnungen gehören Immobilienkonzernen. Bestellst Du auch kostenlos eine Fahne, um zu zeigen, dass es endlich mehr bezahlbare Wohnungen braucht? www.mietexplosion-stoppen.ch/fahne\nMerci!"),
+        "text" => urlencode("Die Mieten im Kanton Zürich sind in den letzten 20 Jahren um fast 50% gestiegen. Bestellst Du auch kostenlos eine Fahne, um zu zeigen, dass es endlich mehr bezahlbare Wohnungen braucht? www.mietexplosion-stoppen.ch/fahne\nMerci!"),
         "type" => "WA"
     );
     include __DIR__ . "/../interfaces/shareInterface.php";
@@ -130,7 +130,7 @@ Router::get('/fahne-teilen', function() {
 
     $params = array(
         "url" => urlencode("https://mietexplosion-stoppen.ch/fahne"),
-        "text" => urlencode("Die Mieten in der Stadt Zürich haben sich in den letzten 20 Jahren fast verdoppelt, immer mehr Wohnungen gehören Immobilienkonzernen. Bestellst Du auch kostenlos eine Fahne, um zu zeigen, dass es endlich mehr bezahlbare Wohnungen braucht? www.mietexplosion-stoppen.ch/fahne\nMerci!"),
+        "text" => urlencode("Die Mieten im Kanton Zürich sind in den letzten 20 Jahren um fast 50% gestiegen. Bestellst Du auch kostenlos eine Fahne, um zu zeigen, dass es endlich mehr bezahlbare Wohnungen braucht? www.mietexplosion-stoppen.ch/fahne\nMerci!"),
         "type" => "tele"
     );
     include __DIR__ . "/../interfaces/shareInterface.php";

@@ -1,4 +1,4 @@
-var labelsChart1 = ["3-Zimmer 1999", "3-Zimmer 2020"];
+var labelsChart1 = ["3-Zimmer 1999", "3-Zimmer 2022"];
 
 var dataChart1 = {
   labels: labelsChart1,
@@ -19,7 +19,7 @@ var configChart1 = {
     scales: {
       y: {
         min: 0,
-        max: 3000,
+        max: 2500,
         ticks: {
           // Include a dollar sign in the ticks
           callback: function (value, index, values) {

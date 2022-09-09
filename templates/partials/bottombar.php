@@ -4,7 +4,7 @@
         <div id="navlinks">
             <a class="footer-nav-links" href="/datenschutz">Datenschutz</a>
             <a class="footer-nav-links" href="/datenschutz/impressum">Impressum</a>
-            <a class="footer-nav-links" href="https://zuerich.spkantonzh.ch/">SP Stadt Zürich</a>
+            <a class="footer-nav-links" href="https://spkantonzh.ch/">SP Kanton Zürich</a>
         </div>
         <div id="credits">
             Built with ❤️ | <a href="https://kpunkt.ch" target="_blank" rel="norefferer">Webdesign by <b>K.</b></a>

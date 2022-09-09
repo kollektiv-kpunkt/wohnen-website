@@ -22,26 +22,11 @@ include __DIR__ . "/../partials/header.php";
         <p>
         <span class="label">Bankverbindung:</span> 80-18149-9 oder IBAN CH90 0900 0000 8001 8149 9
         </p>
-        <p>
-        <strong>Andrea Sprecher</strong>, Generalsekretärin
-        <br>
-        <a href="mailto:asprecher@spzuerich.ch">asprecher@spzuerich.ch</a>, 076 420 84 55
-        </p>
-        <p>
-        <strong>Liv Mahrer</strong>, Co-Präsidentin
-        <br>
-        <a href="mailto:lmahrer@spzuerich.ch">lmahrer@spzuerich.ch</a>, 079 675 69 44
-        </p>
-        <p>
-        <strong>Oliver Heimgartner</strong>, Co-Präsident
-        <br>
-        <a href="mailto:oheimgartner@spzuerich.ch">oheimgartner@spzuerich.ch</a>, 078 800 93 45
-        </p>
         <h4 style="margin-top: 2rem">Medienkontakt</h4>
         <p>
-        <strong>Oliver Heimgartner</strong>, Co-Präsident
+        <strong>Hélène Fischer</strong>, Verantwortliche Unterschriftensammlung
         <br>
-        <a href="mailto:oheimgartner@spzuerich.ch">oheimgartner@spzuerich.ch</a>, 078 800 93 45
+        <a href="mailto:hfischer@spzuerich.ch">hfischer@spzuerich.ch</a>, 044 578 10 14
         </p>
         <h4>Datenschutz</h4>
         <p>

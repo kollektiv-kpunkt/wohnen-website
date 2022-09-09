@@ -6,12 +6,12 @@ include __DIR__ . "/partials/header.php";
 <section class="home-section" style="--sectionColor: #C51E1E" id="mietexplosion">
     <div class="section-container smcont">
         <div class="chartcontainer" id="cc-1">
-            <h3 class="charttitle">Die Mieten im Kanton Zürich steigen massiv:</h3>
+            <h3 class="charttitle">Die Mieten im Kanton Zürich steigen:</h3>
             <div class="chart">
                 <canvas id="chart1"></canvas>
                 <p class="textonchart" id="chart1_1">+47%</p>
             </div>
-            <p class="chartlabel">Quelle: Mittlerer Preis einer 3-Zimmerwohnung (72m2) 2022 (Real Advisor), Berechnung auf Datengrundlage des Index Angebotsmieten Kanton Zürich (wüestpartner)</p>
+            <p class="chartlabel">Quelle: Mittlerer Preis einer 3-Zimmer-Wohnung (72m<sup>2</sup>) 2022 (Real Advisor), Berechnung auf Datengrundlage des Index Angebotsmieten Kanton Zürich (wüestpartner)</p>
         </div>
         <p class="savechart" data-ccid="cc-1" data-name="mietvergleich">Grafik herunterladen</p>
         <p>Wohnen im Kanton Zürich wird immer teurer. In den letzten 20 Jahren sind die Mieten rund 50 Prozent gestiegen. Wohnungen für 5'700 CHF in Zürich an der Europaallee zeigen, in welche Richtung sich das Wohnungsangebot bewegt. Geht diese Entwicklung ungebremst weiter, wird der Mittelstand bald auch aus vielen Agglomerationsgemeinden im Kanton Zürich verdrängt.</p>
@@ -50,7 +50,7 @@ include __DIR__ . "/partials/header.php";
 <section class="home-section" style="--sectionColor: #088043" id="immokonzerne">
     <div class="section-container smcont">
         <div id="cc-2">
-            <h3 class="charttitle">Die Entwicklung in der Stadt Zürich zeigt, was im ganzen Kanton passieren wird</h3>
+            <h3 class="charttitle">Die Entwicklung in Zürich zeigt, was im ganzen Kanton passieren wird</h3>
             <div class="chart">
                 <canvas id="chart2"></canvas>
                 <p class="textonchart" id="chart2_1">Immobilienkonzerne*</p>
@@ -89,7 +89,7 @@ include __DIR__ . "/partials/header.php";
 
     <div class="section-container smcont">
         <h3 class="charttitle">FDP und SVP planen im Bundeshaus noch höhere Mieten</h3>
-        <p>Die rechtskonservativen Parteien wollen ihren Freunden in den Verwaltungsräten der Immobilienkonzerne noch höhere Renditen zuschaufeln. Auf ihre Forderungen berät das Parlament nun verschiedene Gesetzesänderungen, die noch krassere Mietsteigerungen erlauben – so zum Beispiel sollen die Hürden für die Mieter:innen weiter erhöht werden, um überhöhte Anfangsmietzinsen anzufechten (parlamentarische Initiativen 15.451, 18.475, 16.451 und 17.493).</p>
+        <p>Die rechtskonservativen Parteien wollen ihren Freunden in den Verwaltungsräten der Immobilienkonzerne noch höhere Renditen zuschaufeln. Auf ihre Forderungen berät das Parlament nun verschiedene Gesetzesänderungen, die noch krassere Mietsteigerungen erlauben – so zum Beispiel sollen die Hürden für die Mieter:innen weiter erhöht werden, um überhöhte Anfangsmietzinsen anzufechten (parlamentarische Initiativen 15.455, 18.475, 16.451 und 17.493).</p>
         <div id="people-grid">
             <div class="person">
                 <div class="person-img-container">
@@ -158,8 +158,8 @@ include __DIR__ . "/partials/header.php";
         <ol>
             <li><p><b>Landverkäufe stoppen</b><br>Heute verscherbeln Kanton und Gemeinden ihre Grundstücke und Immobilien viel zu oft einfach an den Meistbietenden. Damit heizen sie das Problem der steigenden Mieten selbst noch weiter an. Für die SP ist klar, dass Kanton und Gemeinden kein Land mehr verkaufen sollen.</p></li>
             <li><p><b>Initiative für ein kommunales Vorkaufsrecht</b><br>Bei vielen Transaktionen von Liegenschaften haben Städte und Gemeinden heute nicht einmal eine theoretische Chance zum Mitbieten, da kein offenes Bieterverfahren stattfindet. Mit einer kantonalen Volksinitiative wollen wir deshalb die gesetzlichen Grundlagen für die Einführung kommunaler Vorkaufsrechte schaffen.</p></li>
-            <li><p><b>Mindestens 50 Prozent gemeinnützige Wohnungen bei Mehrausnutzungen</b><br>Der Artikel 49b PBG (Planungs- und Baugesetz des Kantons Zürich) ermöglicht den Gemeinden, auf Ein- und Aufzonungen (Zonenänderungen) einen Mindestanteil an preisgünstigem Wohnraum festzulegen. In der Umsetzung fordern wir nun bei grösseren Parzellen in den Städten und Gemeinden einen Mindestanteil von 50 Prozent preisgünstigen Wohnungen auf die Mehrausnutzung. So nehmen wir auch die Immobilienkonzerne in die Verantwortung, bezahlbaren Wohnraum zu schaffen.</p></li>
-            <li><p><b>Mehr bezahlbare Alterswohnungen</b><br>Aufgrund fehlender bezahlbarer Alterswohnungen im Kanton Zürich werden viele ältere Menschen praktisch dazu gezwungen ins Altersheim zu gehen, obwohl sie noch selbstbestimmt in der eigenen Wohnung leben könnten. Die SP fordert, dass der Kanton in diesem Bereich endlich Verantwortung übernimmt und die Gemeinden dabei unterstützt bis 2040 mindestens 6’000 neue gemeinnützige Alterswohnungen zu realisieren.</p></li>
+            <li><p><b>Mindestens 50 Prozent gemeinnützige Wohnungen bei Mehrausnutzungen</b><br>Der Artikel 49b PBG (Planungs- und Baugesetz des Kantons Zürich) ermöglicht den Gemeinden, auf Ein- und Aufzonungen (Zonenänderungen) einen Mindestanteil an preisgünstigem Wohnraum festzulegen. So nehmen wir auch die Immobilienkonzerne in die Verantwortung, bezahlbaren Wohnraum zu schaffen.</p></li>
+            <li><p><b>Mehr bezahlbare Alterswohnungen</b><br>Aufgrund fehlender bezahlbarer Alterswohnungen im Kanton Zürich werden viele ältere Menschen praktisch dazu gezwungen ins Altersheim zu gehen, obwohl sie noch selbstbestimmt in der eigenen Wohnung leben könnten. Die SP fordert, dass der Kanton in diesem Bereich endlich Verantwortung übernimmt und die Gemeinden dabei unterstützt, bis 2040 mindestens 6’000 neue gemeinnützige Alterswohnungen zu realisieren.</p></li>
         </ol>
     </div>
 
@@ -171,7 +171,7 @@ include __DIR__ . "/partials/header.php";
 <section class="home-section" style="--sectionColor: #008d91" id="mitmachen">
 
     <div class="section-container smcont">
-        <h3 class="charttitle">Unterstützen Sie uns bei unserem Engagement für mehr bezahlbare Wohnungen!</h3>
+        <h3 class="charttitle">Jetzt mithelfen!</h3>
         <p>Gemeinsam können wir dafür sorgen, dass rasch mehr bezahlbare Wohnungen entstehen:</p>
         <div id="support-grid">
             <div class="support-item">
@@ -226,6 +226,7 @@ include __DIR__ . "/partials/header.php";
 
 
 <script src="/lib/chartjs/chart.js"></script>
+<script src="/lib/html2canvas/html2canvas.min.js"></script>
 <script src="/js/apps/charts.js"></script>
 
 

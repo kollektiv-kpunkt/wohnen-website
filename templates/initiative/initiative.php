@@ -9,8 +9,8 @@ include __DIR__ . "/../partials/header.php";
 
 <div class="paper-container mdcont">
     <div class="paper">
-        <h2 class="paper-title">Initiative für mehr bezahlbare WOhnungen im Kanton Zürich unterschreiben</h2>
-        <p class="lead">Wir müssen gemeinsam dafür sorgen, dass nicht bald der halbe Kanton Zürich den Immobilienkonzernen gehört. Mit unserer neuen Initiative fordern wir: Mehr bezahlbare Wohnungen, weniger Immobilienkonzerne!</p>
+        <h2 class="paper-title">Initiative für bezahlbare Wohnungen unterschreiben!</h2>
+        <p class="lead">Wir müssen gemeinsam dafür sorgen, dass nicht immer mehr Wohnungen in unserem Kanton den Immobilienkonzernen gehören. Mit unserer neuen Initiative fordern wir: Mehr bezahlbare Wohnungen, weniger Immobilienkonzerne!</p>
 
         <div class="testimonial">
             <img src="/img/personen/jacqueline_badran.jpeg" alt="Jacqueline Badran" class="testimonial-img">
@@ -26,7 +26,7 @@ include __DIR__ . "/../partials/header.php";
         </div>
 
         <div id="mitmachen" style="padding-top: calc(var(--navHeight) + 1.5rem)">
-            <h2 style="color: var(--red); margin: 0; text-align: center">Hilf mit!</h2>
+            <h2 style="color: var(--red); margin: 0; text-align: center">Hier unterschreiben!</h2>
             <div data-prefill-inherit="1" data-paperform-id="yrhzauzy" class="paperform-container" style="margin-bottom: 0"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
         </div>
 
@@ -47,11 +47,11 @@ include __DIR__ . "/../partials/header.php";
         <div id="unsere-argumente" style="padding-top: calc(var(--navHeight) + 1.5rem)">
             <h4 style="margin-top: 0">Unsere Argumente</h4>
             <ul>
-                <li>Die Mieten im Kanton Zürich steigen. <strong>Handeln wir nicht, gehört bald der halbe Kanton Immobilienkonzernen</strong>, die hohe Renditen verlangen. Die Initiative «Mehr bezahlbare Wohnungen im Kanton Zürich» gibt den Gemeinden ein neues Instrument, um diese Entwicklung zu stoppen und bezahlbare Wohnungen zu schaffen.</li>
+                <li>Die Mieten im Kanton Zürich steigen. <strong>Handeln wir nicht, gehören immer mehr Wohnungen in unserem Kanton den Immobilienkonzernen</strong>, die hohe Renditen verlangen. Die Initiative «Mehr bezahlbare Wohnungen im Kanton Zürich» gibt den Gemeinden ein neues Instrument, um diese Entwicklung zu stoppen und bezahlbare Wohnungen zu schaffen.</li>
                 <li>Das Vorkaufsrecht stellt sicher, dass die <strong>Gemeinden über Verkaufsabsichten überhaupt Bescheid wissen </strong>und verhindern können, dass Immobilienkonzerne alle Areale aufkaufen. So können die Gemeinden ihren boden- und wohnungspolitischen Spielraum erweitern.</li>
                 <li><strong>Das Vorkaufsrecht ist bereits in mehreren Kantonen ein bewährtes Instrument!</strong> Zum Beispiel im Kanton Waadt, wo die Gemeinden seit Januar 2020 vom Vorkaufsrecht Gebrauch machen können. So konnte die Stadt Lausanne schon mehrere Liegenschaften mit insgesamt 78 Wohnungen kaufen.</li>
                 <li>Die <strong>Nachfrage seitens der Städte und Gemeinden ist da</strong>: Laut einer Umfrage des Städteverbandes stuften rund zwei Drittel der Antwortenden ein Vorkaufsrecht für Gemeinden als “eher oder sehr zweckmässig” ein.</li>
-                <li><strong>Ein Vorkaufsrecht für Gemeinden ist finanzierbar</strong> Dazu gibt es verschiedene Möglichkeiten: zum Beispiel könnte die Exekutive die Budgetkompetenzen für den Landerwerb erhalten, über die Gründung von privatrechtlichen Trägerschaften, oder mithilfe eines Fonds zur Finanzierung der Boden- und Liegenschaftspolitik, der unter anderem auch von Geldern des Mehrwertausgleichs gespiesen wird.</li>
+                <li><strong>Ein Vorkaufsrecht für Gemeinden ist finanzierbar.</strong> Dazu gibt es verschiedene Möglichkeiten: zum Beispiel könnte die Exekutive die Budgetkompetenzen für den Landerwerb erhalten, über die Gründung von privatrechtlichen Trägerschaften, oder mithilfe eines Fonds zur Finanzierung der Boden- und Liegenschaftspolitik, der unter anderem auch von Geldern des Mehrwertausgleichs gespiesen wird.</li>
             </ul>
             <a href="#mitmachen" class="button">Jetzt unterschreiben</a>
         </div>
