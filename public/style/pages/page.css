@@ -83,8 +83,15 @@
 
 p#initiativtext-title {
     margin-top: 0;
+    margin-bottom: 0;
     font-weight: bold;
+    font-size: 1.25rem;
+}
+
+p#initiativtext-subtitle {
     font-size: 1rem;
+    margin-top: 0;
+    font-style: italic;
 }
 
 .artikel {
@@ -111,4 +118,23 @@ p.absatz {
 
 .absatz sup {
     margin-right: 0.25em;
+}
+
+p.litera {
+    padding-left: 1.8em;
+    text-indent: -0.6em;
+}
+
+#initiativtext p.litera:last-child {
+    margin-bottom: 0;
+}
+
+#initiative div.kapitel {
+    margin-top: 1rem;
+}
+
+#initiative div.kapitel p.kapitel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
 }

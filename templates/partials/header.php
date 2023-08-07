@@ -27,27 +27,27 @@ $actual_uri = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" 
     <!-- Primary Meta Tags -->
     <title><?= $page["subtitle"] ?></title>
     <meta name="title" content="<?= $page["subtitle"] ?>">
-    <meta name="description" content="Wohnen in Zürich wird immer teurer. Im Vergleich mit vor 20 Jahren haben sich die Mieten fast verdoppelt. Wohnungen für 5'700 CHF an der Europaallee zeigen, in welche Richtung sich der Wohnungsmarkt bewegt. Geht diese Entwicklung ungebremst weiter, ist Zürich irgendwann nur noch für die Banken- und Software-Elite bezahlbar.">
+    <meta name="description" content="Wohnen im Kanton Zürich wird immer teurer. In den letzten 20 Jahren sind die Mieten rund 50 Prozent gestiegen. Wohnungen für 5'700 CHF in Zürich an der Europaallee zeigen, in welche Richtung sich das Wohnungsangebot bewegt. Geht diese Entwicklung ungebremst weiter, wird der Mittelstand bald auch aus vielen Agglomerationsgemeinden im Kanton Zürich verdrängt.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?= $actual_link ?>">
     <meta property="og:title" content="<?= $page["subtitle"] ?>">
-    <meta property="og:description" content="Wohnen in Zürich wird immer teurer. Im Vergleich mit vor 20 Jahren haben sich die Mieten fast verdoppelt. Wohnungen für 5'700 CHF an der Europaallee zeigen, in welche Richtung sich der Wohnungsmarkt bewegt. Geht diese Entwicklung ungebremst weiter, ist Zürich irgendwann nur noch für die Banken- und Software-Elite bezahlbar.">
+    <meta property="og:description" content="Wohnen im Kanton Zürich wird immer teurer. In den letzten 20 Jahren sind die Mieten rund 50 Prozent gestiegen. Wohnungen für 5'700 CHF in Zürich an der Europaallee zeigen, in welche Richtung sich das Wohnungsangebot bewegt. Geht diese Entwicklung ungebremst weiter, wird der Mittelstand bald auch aus vielen Agglomerationsgemeinden im Kanton Zürich verdrängt.">
     <meta property="og:image" content="<?= $actual_uri ?>/img/og/<?= $og_url ?>">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="<?= $actual_link ?>">
     <meta property="twitter:title" content="<?= $page["subtitle"] ?>">
-    <meta property="twitter:description" content="Wohnen in Zürich wird immer teurer. Im Vergleich mit vor 20 Jahren haben sich die Mieten fast verdoppelt. Wohnungen für 5'700 CHF an der Europaallee zeigen, in welche Richtung sich der Wohnungsmarkt bewegt. Geht diese Entwicklung ungebremst weiter, ist Zürich irgendwann nur noch für die Banken- und Software-Elite bezahlbar.">
+    <meta property="twitter:description" content="Wohnen im Kanton Zürich wird immer teurer. In den letzten 20 Jahren sind die Mieten rund 50 Prozent gestiegen. Wohnungen für 5'700 CHF in Zürich an der Europaallee zeigen, in welche Richtung sich das Wohnungsangebot bewegt. Geht diese Entwicklung ungebremst weiter, wird der Mittelstand bald auch aus vielen Agglomerationsgemeinden im Kanton Zürich verdrängt.">
     <meta property="twitter:image" content="<?= $actual_uri ?>/img/og/<?= $og_url ?>">
 
     <!------- STYLE ------->
 
 
     <link rel="stylesheet" type="text/css" href="/style/style.css?ver=1.0" />
-    
+
     <!------- SCRIPT ------->
     <!-- lib -->
     <script src="/lib/jquery/jquery-3.6.0.min.js"></script>
@@ -68,7 +68,7 @@ $actual_uri = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" 
             <a class="menu-item" href="/spenden">Spenden</a>
         </div>
     </div>
-    
+
     <div id="nav-bar-content-mob">
         <a href="/" style="display: flex;">
             <img src="/img/logo-mob.svg" alt="Logo" id="logo-img-mob">
