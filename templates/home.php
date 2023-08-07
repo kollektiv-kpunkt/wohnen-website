@@ -140,7 +140,7 @@ include __DIR__ . "/partials/header.php";
                 <img src="/img/charts/diff_570.svg" alt="#" class="diff_arrow" id="diff_570" loading="lazy">
                 <img src="/img/charts/diff_600.svg" alt="#" class="diff_arrow" id="diff_600" loading="lazy">
             </div>
-            <p class="chartlabel">Quelle: Mietpreiserhebung der Sadt Zürich</p>
+            <p class="chartlabel">Quelle: Mietpreiserhebung der Stadt Zürich</p>
         </div>
         <p class="savechart" data-ccid="cc-4" data-name="mietexplosion-stoppen">Grafik herunterladen</p>
     </div>
