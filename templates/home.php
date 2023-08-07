@@ -146,7 +146,7 @@ include __DIR__ . "/partials/header.php";
     </div>
 
     <div class="section-bg"></div>
-    <div class="section-img" style="background-image: url('/img/sections/2.jpg');"></div>
+    <div class="section-img" style="background-image: url('/img/sections/2.jpg?ver=1.2');"></div>
 
 </section>
 
@@ -225,7 +225,7 @@ include __DIR__ . "/partials/header.php";
 </div>
 
 
-<script src="/lib/chartjs/chart.js"></script>
+<script src="/lib/chartjs/chart.js?ver=1.2"></script>
 <script src="/lib/html2canvas/html2canvas.min.js"></script>
 <script src="/js/apps/charts.js"></script>
 

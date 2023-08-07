@@ -46,13 +46,13 @@ $actual_uri = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" 
     <!------- STYLE ------->
 
 
-    <link rel="stylesheet" type="text/css" href="/style/style.css?ver=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style/style.css?ver=1.2" />
 
     <!------- SCRIPT ------->
     <!-- lib -->
     <script src="/lib/jquery/jquery-3.6.0.min.js"></script>
 
-    <script src="/js/style.js"></script>
+    <script src="/js/style.js?ver=1.2"></script>
 </head>
 <body>
 

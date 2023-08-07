@@ -101,8 +101,8 @@ include __DIR__ . "/../partials/header.php";
                 </div>
                 <div class="kapitel">
                     <div class="artikel">
-                        <p class="artikel-no">§ 15</p>
-                        <p class="absatz"><sup>1</sup>1 Mit Busse bis zu 50 000 Franken wird bestraft, wer vorsätzlich </p>
+                        <p class="artikel-no">§ 15.</p>
+                        <p class="absatz"><sup>1</sup>Mit Busse bis zu 50 000 Franken wird bestraft, wer vorsätzlich </p>
                         <p class="litera"><em>Lit. a – c unverändert.</em></p>
                         <p class="litera">d. gegen Auflagen zur Begrenzung der Mietzinse verstösst.</p>
                         <p class="absatz"><sup>2</sup>Bei Verstössen gemäss lit. d kann bei Gewinnsucht auf Busse in unbeschränkter Höhe erkannt werden.</p>
