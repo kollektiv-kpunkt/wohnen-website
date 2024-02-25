@@ -140,7 +140,7 @@ include __DIR__ . "/partials/header.php";
                 <img src="/img/charts/diff_570.svg" alt="#" class="diff_arrow" id="diff_570" loading="lazy">
                 <img src="/img/charts/diff_600.svg" alt="#" class="diff_arrow" id="diff_600" loading="lazy">
             </div>
-            <p class="chartlabel">Quelle: Mietpreiserhebung der Stadt Zürich</p>
+            <p class="chartlabel">Quelle: Mietpreiserhebung der Stadt Zürich, Median-Bruttomiete, Neubauwohnungen bis zwei Jahre</p>
         </div>
         <p class="savechart" data-ccid="cc-4" data-name="mietexplosion-stoppen">Grafik herunterladen</p>
     </div>
@@ -160,6 +160,7 @@ include __DIR__ . "/partials/header.php";
             <li><p><b>Initiative für ein kommunales Vorkaufsrecht</b><br>Bei vielen Transaktionen von Liegenschaften haben Städte und Gemeinden heute nicht einmal eine theoretische Chance zum Mitbieten, da kein offenes Bieterverfahren stattfindet. Mit einer kantonalen Volksinitiative wollen wir deshalb die gesetzlichen Grundlagen für die Einführung kommunaler Vorkaufsrechte schaffen.</p></li>
             <li><p><b>Mindestens 50 Prozent gemeinnützige Wohnungen bei Mehrausnutzungen</b><br>Der Artikel 49b PBG (Planungs- und Baugesetz des Kantons Zürich) ermöglicht den Gemeinden, auf Ein- und Aufzonungen (Zonenänderungen) einen Mindestanteil an preisgünstigem Wohnraum festzulegen. So nehmen wir auch die Immobilienkonzerne in die Verantwortung, bezahlbaren Wohnraum zu schaffen.</p></li>
             <li><p><b>Mehr bezahlbare Alterswohnungen</b><br>Aufgrund fehlender bezahlbarer Alterswohnungen im Kanton Zürich werden viele ältere Menschen praktisch dazu gezwungen ins Altersheim zu gehen, obwohl sie noch selbstbestimmt in der eigenen Wohnung leben könnten. Die SP fordert, dass der Kanton in diesem Bereich endlich Verantwortung übernimmt und die Gemeinden dabei unterstützt, bis 2040 mindestens 6’000 neue gemeinnützige Alterswohnungen zu realisieren.</p></li>
+            <li><p><b>Wohnschutz-Initiative</b><br>Wir beobachten ein Muster: Immobilienfirmen stellen langjährige Mieter:innen auf die Strasse, um nach einer Totalsanierung oder einem Ersatzneubau unanständig hohe Mieten einzufordern und ihre Renditen zu steigern. Mit Wohnschutz-Massnahmen sollen die Gemeinden des Kantons Zürich die Möglichkeit haben, die zukünftigen Mieten beim Baugesuch auf deren Zulässigkeit zu prüfen. So lassen sich unnötige Abrisse vermeiden und bezahlbare Wohnungen bleiben erhalten.</p></li>
         </ol>
     </div>
 
@@ -175,9 +176,9 @@ include __DIR__ . "/partials/header.php";
         <p>Gemeinsam können wir dafür sorgen, dass rasch mehr bezahlbare Wohnungen entstehen:</p>
         <div id="support-grid">
             <div class="support-item">
-                <h5>Initiative unterstützen</h5>
-                <p>Unterstützen Sie unsere Forderung nach mehr bezahlbaren Wohnungen mit einer Spende</p>
-                <a href="/spenden" class="support-button">unterstützen</a>
+                <h5>Initiative unterschreiben</h5>
+                <p>Unterstützen Sie unsere Forderung nach mehr bezahlbaren Wohnungen mit ihrer Unterschrift</p>
+                <a href="/initiative#mitmachen" class="support-button">Unterschreiben</a>
             </div>
             <div class="support-item">
                 <h5>Fahne bestellen</h5>

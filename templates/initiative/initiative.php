@@ -9,14 +9,13 @@ include __DIR__ . "/../partials/header.php";
 
 <div class="paper-container mdcont">
     <div class="paper">
-        <h2 class="paper-title">Wohnschutz-Initiative unterschreiben!</h2>
-        <p class="lead">Bezahlbare Wohnungen schützen. Leerkündigungen stoppen!</p>
+        <h2 class="paper-title">Unsere Wohnschutz-Initiative</h2>
 
         <div class="testimonial">
             <img src="/img/personen/jacqueline_badran.jpeg" alt="Jacqueline Badran" class="testimonial-img">
             <div class="testimonial-quote-outer">
                 <p class="testimonial-quote">
-                    «9 von 10 Personen würden lieber in einer gemeinnützigen Wohnung zur Kostenmiete leben, statt einem Immobilienkonzern Monat für Monat die übersetzte Rendite zu finanzieren. Darum: <b>Unterschreib jetzt unsere Initiative!</b>»
+                    «Jede Woche erhalten die Mieter:innen einer anderen Siedlung das Kündigungsschreiben, weil die Immobilienkonzerne das Doppelte verlangen können, wenn sie die Wohnungen luxussanieren und neu vermieten. <b>Das muss jetzt endlich aufhören!</b>»
                 </p>
                 <p class="testimonial-description">
                     <b>Jacqueline Badran</b><br>
@@ -25,15 +24,22 @@ include __DIR__ . "/../partials/header.php";
             </div>
         </div>
 
-        <!-- <div id="mitmachen" style="padding-top: calc(var(--navHeight) + 1.5rem)">
+        <!--<div id="mitmachen" style="padding-top: calc(var(--navHeight) + 1.5rem)">
             <h2 style="color: var(--red); margin: 0; text-align: center">Hier unterschreiben!</h2>
             <div data-prefill-inherit="1" data-paperform-id="yrhzauzy" class="paperform-container" style="margin-bottom: 0"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
-        </div> -->
+        </div>-->
+
+        <div id="darum-gehts" style="padding-top: calc(var(--navHeight) + 1.5rem)">
+            <h4 style="margin-top: 0">20’000 Zürcher:innen unterzeichnen Wohnschutz-Initiative</h4>
+            <p>
+                Die von SP, Mieterverband, Grünen und AL getragene und von zahlreichen Einzelpersonen aus dem ganzen Kanton Zürich unterstützte Initiative ist am 2. Februar 2024 mit 20'000 Unterschriften eingereicht worden. André Odermatt hält bei der Einreichung fest, dass in einer wachsenden Stadt wie Zürich und auch in vielen andern Gemeinden im Kanton Zürich der Druck auf den Wohnungsmarkt enorm sei. Die Wohnschutz-Initiative mache «eine sozialverträgliche Entwicklung» möglich.
+            </p>
+        </div>
 
         <div id="darum-gehts" style="padding-top: calc(var(--navHeight) + 1.5rem)">
             <h4 style="margin-top: 0">Warum braucht es die Initiative?</h4>
             <p>
-                Immer mehr Menschen werden im Kanton Zürich aus ihrer Umgebung verdrängt, weil sie sich die steigenden Mieten nicht mehr leisten können. Überall sehen wir, wie Mehrfamilienhäuser, die noch gut erhalten sind, abgerissen werden, um mit einem Neubau verlangen mehr Profit erzielen zu können. Die bisherigen Mieter:innen werden auf die Strasse gestellt und müssen wegziehen – teilweise nachdem sie 10, 20 oder 30 Jahre im Quartier gelebt hatten.
+                Immer mehr Menschen werden im Kanton Zürich aus ihrer Umgebung verdrängt, weil sie sich die steigenden Mieten nicht mehr leisten können. Überall sehen wir, wie Mehrfamilienhäuser, die noch gut erhalten sind, abgerissen werden, um mit einem Neubau mehr Profit erzielen zu können. Die bisherigen Mieter:innen werden auf die Strasse gestellt und müssen wegziehen – teilweise nachdem sie 10, 20 oder 30 Jahre im Quartier gelebt hatten.
             </p>
         </div>
 
@@ -42,7 +48,7 @@ include __DIR__ . "/../partials/header.php";
             <p>
                 Die Gemeinden müssen dieser schädlichen Entwicklung Einhalt gebieten können. Dafür braucht es die Initiative «Bezahlbare Wohnungen schützen. Leerkündigungen stoppen (Wohnschutz-Initiative)»: Unnötige Abrisse werden unattraktiv, was bestehende Wohnungen erhält. Bei einer allfälligen Renovation dürfen die künftigen Mietpreise nicht nicht ins Unermessliche steigen.
             </p>
-            <!-- <a href="#mitmachen" class="button">Jetzt unterschreiben</a> -->
+            <a href="/spenden" class="button">Jetzt für die Kampagne spenden</a>
         </div>
 
         <!-- <div id="unsere-argumente" style="padding-top: calc(var(--navHeight) + 1.5rem)">
@@ -110,7 +116,6 @@ include __DIR__ . "/../partials/header.php";
                     </div>
                 </div>
             </div>
-            <!-- <a href="#mitmachen" class="button">Jetzt unterschreiben</a> -->
         </div>
     </div>
 </div>

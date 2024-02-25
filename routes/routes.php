@@ -95,7 +95,7 @@ Router::get('/weiterleiten', function() {
 
     $params = array(
         "url" => urlencode("https://mietexplosion-stoppen.ch/initiative#mitmachen"),
-        "text" => urlencode("Die Mieten im Kanton Zürich sind in den letzten 20 Jahren um fast 50% gestiegen. Darum habe ich soeben die neue Initiative für mehr bezahlbare Wohnungen unterschrieben. Machst Du auch mit? www.mietexplosion-stoppen.ch/initiative#mitmachen\nMerci!"),
+        "text" => urlencode("Die Mieten im Kanton Zürich sind in den letzten 25 Jahren um fast 50% gestiegen. Darum habe ich soeben die neue Initiative für mehr bezahlbare Wohnungen unterschrieben. Machst Du auch mit? www.mietexplosion-stoppen.ch/initiative#mitmachen\nMerci!"),
         "type" => "WA"
     );
     include __DIR__ . "/../interfaces/shareInterface.php";
@@ -110,7 +110,7 @@ Router::get('/teilen', function() {
 
     $params = array(
         "url" => urlencode("https://mietexplosion-stoppen.ch/initiative#mitmachen"),
-        "text" => urlencode("Die Mieten im Kanton Zürich sind in den letzten 20 Jahren um fast 50% gestiegen. Darum habe ich soeben die neue Initiative für mehr bezahlbare Wohnungen unterschrieben. Machst Du auch mit? www.mietexplosion-stoppen.ch/initiative#mitmachen\nMerci!"),
+        "text" => urlencode("Die Mieten im Kanton Zürich sind in den letzten 25 Jahren um fast 50% gestiegen. Darum habe ich soeben die neue Initiative für mehr bezahlbare Wohnungen unterschrieben. Machst Du auch mit? www.mietexplosion-stoppen.ch/initiative#mitmachen\nMerci!"),
         "type" => "tele"
     );
     include __DIR__ . "/../interfaces/shareInterface.php";

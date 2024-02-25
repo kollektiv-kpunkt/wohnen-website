@@ -4,8 +4,8 @@ require_once __DIR__ . "/../vendor/matomo/matomo-php-tracker/MatomoTracker.php";
 
 global $config;
 
-$matomoSiteId = 24;                  // Site ID
-$matomoUrl = "https://analytics.timothyoesch.ch/"; // Your matomo URL
+$matomoSiteId = 6;                  // Site ID
+$matomoUrl = "https://analytics.kpunkt.ch/"; // Your matomo URL
 $matomoToken = $config["matomoToken"];                  // Your authentication token
 
 // Matomo object
